@@ -1,0 +1,11 @@
+/* .secondary-goals{
+}
+ */
+.secondary-goals ul li{
+    padding: 0 10vw;
+
+    &::before{
+        content: "*";
+        margin-right: .5em;
+    }
+}

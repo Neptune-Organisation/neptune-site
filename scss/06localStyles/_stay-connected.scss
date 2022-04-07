@@ -1,0 +1,33 @@
+@use "../01subAtoms/subAtoms" as *;
+.stay-connected{
+    background-color: $mainCol;
+    padding: 5vh 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__content{
+        position: relative;
+        bottom: 1vh;
+    }
+
+    &__btn{
+        font-size: $f2;
+    }
+}
+
+.stay-connected h2{
+    color: $white;
+}
+
+.down-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.down-container p{
+    color: $white;
+    font-size: $f2;
+    margin: 0 1em;
+}

@@ -1,0 +1,156 @@
+@use "../01subAtoms/subatoms" as *;
+
+h1 {
+  font-family: $mainFont;
+  font-size: $f5;
+  font-weight: 700;
+  color: $mainCol;
+  line-height: 0.8em;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+/* header{
+  
+} */
+h2 {
+  font-family: $mainFont;
+  font-size: $f5;
+  font-weight: 400;
+  color: $mainCol;
+  line-height: 0.8em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+h3 {
+  font-family: $mainFont;
+  font-size: $f4;
+  font-weight: 400;
+  color: $primaryCol;
+  line-height: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+p {
+  font-family: $mainFont;
+  font-size: $f3;
+  font-weight: 400;
+  color: $primaryCol;
+  line-height: 2em;
+  margin-bottom: 0.5em;
+}
+
+
+input,
+textarea,
+figcaption,
+label,
+textarea,
+li,
+select,
+option {
+  font-family: $mainFont;
+  font-size: $f3;
+  font-weight: 400;
+  color: $primaryCol;
+  margin: 0.5em 0;
+  line-height: 2em;
+}
+
+a{
+  font-family: $mainFont;
+  font-size: $f3;
+  font-weight: 400;
+  color: $primaryCol;
+}
+
+li{
+  margin: 1em 0;
+}
+
+label{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: $white;
+}
+
+img {
+  font-family: $mainFont;
+  font-size: $f1;
+  font-weight: 200;
+  color: $primaryCol;
+}
+
+a, button {
+
+  background-color: transparent;
+  text-decoration: none;
+  border: 1px solid $white;
+  padding: .5em 1em;
+
+  &:hover {
+    color: $primaryCol;
+  }
+  :active {
+    color: white;
+    background-color: $primaryCol;
+  }
+  :focus {
+    color: $primaryColMuted;
+    background-color: $primaryCol;
+  }
+}
+
+button{
+  margin: 1em 0;
+  color: $white;
+}
+
+select {
+  padding: 0.75em 1.25em;
+}
+
+blockquote {
+  font-family: $mainFont;
+  font-size: $f3;
+  font-weight: 700;
+  font-style: italic;
+  color: $primaryCol;
+  line-height: 0.8em;
+  margin-bottom: 0.5em;
+  text-align: center;
+  max-width: 75ch;
+  min-width: 45ch;
+  ::before {
+    content: '"';
+  }
+  ::after {
+    content: '"';
+  }
+}
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}

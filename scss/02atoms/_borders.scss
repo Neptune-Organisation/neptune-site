@@ -1,0 +1,7 @@
+@use "../01subAtoms/colors" as *;
+  
+  $borderThin: 0.5px solid $primaryColMuted;
+  $borderMed: 3px solid $primaryColMuted;
+  $borderThick: 5px solid $primaryColMuted;
+
+  $borderRadius : 5px;

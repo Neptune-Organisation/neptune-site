@@ -1,0 +1,14 @@
+.ussage__steps{
+    margin: 1em 0;
+    padding-right: 10vw;
+    padding: 0 10vw;
+
+
+    &::before{
+        content: "*";
+        /* background-image: url("../../assets/icons/tridentIcon.png"); */
+        width: 20px;
+        height: 20px;
+        margin-right: .5em;
+    }
+}
