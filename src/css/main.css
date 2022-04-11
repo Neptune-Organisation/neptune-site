@@ -92,6 +92,15 @@ p {
   margin-bottom: 0.5em;
 }
 
+.boldText {
+  font-family: "Roboto", sans-serif;
+  font-size: clamp(2rem, 4vw, 2.4rem);
+  font-weight: 700;
+  color: #53acac;
+  line-height: 2em;
+  margin-bottom: 0.5em;
+}
+
 input,
 textarea,
 figcaption,
@@ -106,13 +115,6 @@ option {
   color: gray;
   margin: 0.5em 0;
   line-height: 2em;
-}
-
-a {
-  font-family: "Roboto", sans-serif;
-  font-size: clamp(2rem, 4vw, 2.4rem);
-  font-weight: 400;
-  color: gray;
 }
 
 li {
@@ -134,19 +136,39 @@ img {
   color: gray;
 }
 
-a, button {
+a {
+  font-family: "Roboto", sans-serif;
+  font-size: clamp(2rem, 4vw, 2.4rem);
+  font-weight: 400;
+  background-color: transparent;
+  text-decoration: none;
+  color: #53acac;
+}
+a:hover {
+  color: gray;
+}
+a :active {
+  color: white;
+  background-color: gray;
+}
+a :focus {
+  color: #53acac;
+  background-color: gray;
+}
+
+button {
   background-color: transparent;
   text-decoration: none;
   padding: 0.5em 1em;
 }
-a:hover, button:hover {
+button:hover {
   color: gray;
 }
-a :active, button :active {
+button :active {
   color: white;
   background-color: gray;
 }
-a :focus, button :focus {
+button :focus {
   color: #53acac;
   background-color: gray;
 }
@@ -252,6 +274,7 @@ sup {
   /* position: fixed;
   inset: 0 0 auto 0;  */
   margin: 0;
+  margin-bottom: 3vh;
   padding: 2.5vh 5vw;
   display: flex;
   flex-direction: column;
@@ -463,6 +486,18 @@ body {
 .blog-preview__title {
   text-align: left;
   font-weight: 700;
+}
+
+.about-me {
+  padding: 0 5vw;
+}
+.about-me__body {
+  margin: 4vh 0;
+  line-height: 2.12em;
+}
+
+.impressum {
+  padding: 0 5vw;
 }
 
 @media screen and (min-width: 600px) {

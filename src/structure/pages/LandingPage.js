@@ -6,17 +6,15 @@ import Examples from "../components/Examples"
 import StayConnected from "../components/StayConnected"
 import CommingSoon from "../components/CommingSoon"
 
-const LandingPage = () => {
+export const LandingPage = () => {
     return(
         <div className="landing-page">
             <MainGoal />
             <SecondaryGoals />
             <MainFeatures />
-            <Ussage />
+            {/* <Ussage /> */}
             {/* <StayConnected /> */}
             <CommingSoon />
         </div>
     )
 }
-
-export default LandingPage

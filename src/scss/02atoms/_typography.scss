@@ -41,6 +41,14 @@ p {
   margin-bottom: 0.5em;
 }
 
+.boldText{
+  font-family: $mainFont;
+  font-size: $f3;
+  font-weight: 700;
+  color: $primaryColMuted;
+  line-height: 2em;
+  margin-bottom: 0.5em;
+}
 
 input,
 textarea,
@@ -56,13 +64,6 @@ option {
   color: $primaryCol;
   margin: 0.5em 0;
   line-height: 2em;
-}
-
-a{
-  font-family: $mainFont;
-  font-size: $f3;
-  font-weight: 400;
-  color: $primaryCol;
 }
 
 li{
@@ -84,7 +85,27 @@ img {
   color: $primaryCol;
 }
 
-a, button {
+a {
+  font-family: $mainFont;
+  font-size: $f3;
+  font-weight: 400;
+  background-color: transparent;
+  text-decoration: none;
+  color: $primaryColMuted;
+  &:hover {
+    color: $primaryCol;
+  }
+  :active {
+    color: white;
+    background-color: $primaryCol;
+  }
+  :focus {
+    color: $primaryColMuted;
+    background-color: $primaryCol;
+  }
+}
+
+button {
 
   background-color: transparent;
   text-decoration: none;
