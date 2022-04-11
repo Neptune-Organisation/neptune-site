@@ -6,7 +6,8 @@ const Footer = () => {
     return(
         <section className="footer">
             <div className="footer__navbar">
-                <a href="mailto:albertclem@protonmail.com" target="__blank">
+                <a href="">Hello</a>
+                {/* <a href="mailto:albertclem@protonmail.com" target="__blank">
                     <img src={EmailIcon} alt="" className="iconMed footer__icon"/>
                 </a>
                 <a href="https://github.com/AlbertLeipzig/scssvessel" target="__blank">
@@ -14,7 +15,7 @@ const Footer = () => {
                 </a>
                 <a href="https://twitter.com/albert__loewe" target="__blank">
                     <img src={TwitterIcon} alt="" className="iconMed footer__icon"/>
-                </a>
+                </a> */}
             </div>
         </section>
     )

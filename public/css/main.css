@@ -137,7 +137,6 @@ img {
 a, button {
   background-color: transparent;
   text-decoration: none;
-  border: 1px solid white;
   padding: 0.5em 1em;
 }
 a:hover, button:hover {
@@ -514,4 +513,4 @@ body {
   }
 }
 
-/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=main.css.map */
