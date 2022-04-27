@@ -1,3 +1,5 @@
+import data from "../../data/dataIndex";
+console.log(data)
 const AboutMe = () => {
     return(
         <section className="about-me">

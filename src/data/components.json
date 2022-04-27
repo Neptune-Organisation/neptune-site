@@ -1,0 +1,248 @@
+{
+  "pageTitle": "Components",
+  "componentList": [
+    {
+      "name": "<Button />",
+      "category": "Basic Components",
+      "componentImage": "it's not an image, but the very component, rendered in the browser",
+      "reactCodeImage": ["export const Button = (props) => {","const btnClass = props.btnClass || 'btn';","return <button className={btnClass}>{props.txt}</button>;","};"],
+      "scssCodeImage": "",
+      "propsList": { "required": [], "optional": [] },
+      "exposition" : ""
+    },
+    {
+      "name": "<Card />",
+      "category": "Basic Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": { "required": [], "optional": [] },
+      "exposition" : ""
+    },
+    {
+      "name": "<Form />",
+      "category": "Basic Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": { "required": [], "optional": [] },
+      "exposition" : ""
+    },
+    {
+      "name": "<Image />",
+      "category": "Media Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": { "required": [], "optional": [] },
+      "exposition" : ""
+    },
+    {
+      "name": "<MediaPlaer />",
+      "category": "Media Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": { "required": [], "optional": [] },
+      "exposition" : ""
+    },
+    {
+      "name": "<ArticleTitle />",
+      "category": "Test Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": { "required": [], "optional": [] },
+      "exposition" : ""
+    },
+    {
+      "name": "<Blockquote />",
+      "category": "Test Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": { "required": [], "optional": [] },
+      "exposition" : ""
+    },
+    {
+      "name": "<Body />",
+      "category": "Test Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": { "required": [], "optional": [] },
+      "exposition" : ""
+    },
+    {
+      "name": "<Byline />",
+      "category": "Test Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": { "required": [], "optional": [] },
+      "exposition" : ""
+    },
+    {
+      "name": "<Footnote />",
+      "category": "Test Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": { "required": [], "optional": [] },
+      "exposition" : ""
+    },
+    {
+      "name": "<GroupTitle />",
+      "category": "Test Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": { "required": [], "optional": [] },
+      "exposition" : ""
+    },
+    {
+      "name": "<Headline />",
+      "category": "Test Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": { "required": [], "optional": [] },
+      "exposition" : ""
+    },
+    {
+      "name": "<HeroTitle />",
+      "category": "Test Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": { "required": [], "optional": [] },
+      "exposition" : ""
+    },
+    {
+      "name": "<Link />",
+      "category": "Test Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": { "required": [], "optional": [] },
+      "exposition" : ""
+    },
+    {
+      "name": "<List />",
+      "category": "Test Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": { "required": [], "optional": [] },
+      "exposition" : ""
+    },
+    {
+      "name": "<PageTitle />",
+      "category": "Test Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": { "required": [], "optional": [] },
+      "exposition" : ""
+    },
+    {
+      "name": "<SectionTitle />",
+      "category": "Test Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": { "required": [], "optional": [] },
+      "exposition" : ""
+    },
+    {
+      "name": "<SubHeadline />",
+      "category": "Test Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": { "required": [], "optional": [] },
+      "exposition" : ""
+    },
+    {
+      "name": "<SelectOption />",
+      "category": "Test Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": { "required": [], "optional": [] },
+      "exposition" : ""
+    },
+    {
+      "name": "<Picker />",
+      "category": "Interaction Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": { "required": [], "optional": [] },
+      "exposition" : ""
+    },
+    {
+      "name": "<ButtonGroup />",
+      "category": "Group Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": { "required": [], "optional": [] },
+      "exposition" : ""
+    },
+    {
+      "name": "<CardGroup />",
+      "category": "Group Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": { "required": [], "optional": [] },
+      "exposition" : ""
+    },
+    {
+      "name": "<MediaPlayerGroup />",
+      "category": "Group Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": { "required": [], "optional": [] },
+      "exposition" : ""
+    },
+    {
+      "name": "<ImageGroup />",
+      "category": "Group Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": { "required": [], "optional": [] },
+      "exposition" : ""
+    },
+    {
+      "name": "<IconGroup />",
+      "category": "Group Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": { "required": [], "optional": [] },
+      "exposition" : ""
+    },
+    {
+      "name": "<Hero />",
+      "category": "Group Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": { "required": [], "optional": [] },
+      "exposition" : ""
+    },
+    {
+      "name": "<DropdoenMenu />",
+      "category": "Group Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": { "required": [], "optional": [] },
+      "exposition" : ""
+    }
+  ]
+}

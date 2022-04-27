@@ -1,0 +1,21 @@
+{
+  "pageTitle": "Neptune",
+  "sectionTitle": ["What's Neptune"],
+  "headings": [
+    "Tools develope your front-end application faster and easier.",
+    "Acknowledgment"
+  ],
+  "bodies": [
+    "Preserve function sepparation: in-line style it's avoided. Components provides you the connection between functionality and sthetic without sacrificing order and cleanness in your code.",
+    "Make Web Dev more human-friendly, putting a layer of UI syntaxis on top of the syntactic HTML",
+    "Give a toolset that facilitates communication between design, back-end and front-end",
+    "I'm a self-made developer, which means I'm plenty of failures. Lucky me there's some people who saved me from myself:"
+  ],
+  "list": [
+    "DCI for giving me the framework to develop this almost-a-framework",
+    "My teachers Patrick…, Bleda Stark, Fabian Darga, Maxim W, Tun Huan and Giacomo.",
+    "Patricia … for the advice for the most common aspect-ratios for images.",
+    "Alejandro … for your moral support and all the shared knowledge.",
+    "And Carlos Perez Ortolá for his inconditional and more than generous support along the years, besides a good inpiration and feedback in UI / UX"
+  ]
+}

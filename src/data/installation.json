@@ -1,0 +1,24 @@
+{
+    "Data" : "STATIC DATA",
+    "Text" : "Make an installation according to your needs:
+
+    Components :
+    
+    npm i neptunes-components
+    
+    
+    Styles : 
+    
+    For now the best you can do is go to this repository and copy the SCSS Folder tree.
+    
+    In the near future will be a much better system. Read more about it here.
+    
+    DB Assistant:
+    
+    Clone it here
+    
+    GUI:
+    
+    Work In Progress. Find out when it's ready!
+    "
+}
