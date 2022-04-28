@@ -48,19 +48,7 @@ export const Renderer = (props) => {
 
   return (
     <div className="renderer">
-      {component === 'MediaPlayer' && (
-        <MediaPlayer mediaUrl={Data.videoData.mediaUrl} />
-      )}
-      {component === 'List' && <List entries={Data.listData.listEntries} />}
-      {component === 'Link' && (
-        <Link
-          linkUrl={Data.textData.linkUrl}
-          link={Data.textData.link}
-          linkClass={Data.textData.linkClass}
-          target={Data.textData.target}
-        />
-      )}
-
+      
       {component === 'SelectOption' && (
         <SelectOption
           val={Data.selectOptionData.val}
