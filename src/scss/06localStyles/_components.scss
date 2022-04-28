@@ -1,7 +1,10 @@
 @use "../01subAtoms/subAtoms" as *;
 .components{
     display: flex;
-    
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 3vh;    
     &__sidebar{
         width: 15%;
         min-width: fit-content;
@@ -11,7 +14,7 @@
     
     &__sidebar-list {
         overflow: scroll;
-        height: 60vh;
+        height: 20vh;
     }
     &__main-display{
         width: 60vw;
@@ -19,5 +22,27 @@
         flex-direction: column;
         align-items: center;
         padding-left: 5em;
+    }
+
+    &__dropdown{
+        margin-top: 5vh;
+        outline: 1px solid $primaryColMuted;
+        border-radius: 5px;
+    }
+}
+
+
+.code-renderer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__buttons{
+        display: flex;
+    }
+
+    &__btn{
+        width: fit-content;
+        margin: 1.5em 1.5em;
     }
 }

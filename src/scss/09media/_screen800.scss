@@ -4,4 +4,13 @@
       max-width: 500px;
     }
   }
+
+  .components{
+    display: flex;
+    flex-direction: row;
+
+    &__sidebar-list{
+      height: 60vh;
+    }
+  }
 }

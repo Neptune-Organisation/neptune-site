@@ -1,3 +1,4 @@
+import { PageTitle } from "neptunes-components"
 import BlogPreview from "../components/BlogPreview"
 
 export const Blog = () => {
@@ -22,6 +23,7 @@ export const Blog = () => {
 
     return(
         <div className="blog">
+            <PageTitle pageTitle = "Blog" />
             {blogData && blogData.map((entry) => 
                 <BlogPreview title = {entry.title} body = {entry.body} date = {entry.date}  />
     )}

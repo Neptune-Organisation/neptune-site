@@ -37,6 +37,12 @@
   @include p;
 }
 
+.code {
+  @include p;
+  font-family: $codeFont;
+  color: $primaryColMuted;
+}
+
 .clossure{
   @include h3
 }

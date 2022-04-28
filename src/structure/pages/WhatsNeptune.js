@@ -1,7 +1,9 @@
+import { PageTitle } from 'neptunes-components';
 export const WhatsNeptune = () => {
   return (
-    <>
-      <h1>What's Neptune</h1>
+    <section>
+      <PageTitle pageTitle="What's Neptune" />
+      <div className="subsection">
       <p>
         Neptune is a set of tools to help you develope your front-end
         application faster and easier.
@@ -16,6 +18,8 @@ export const WhatsNeptune = () => {
         Although they are written in order to work together you can use them
         separately if that's what you need.
       </p>
+      </div>
+      <div className="subsection">
       <p>
         Neptune-components integrates a certain level of data description. I'm
         aware of this inconvenience and already develope a better solution in
@@ -35,6 +39,8 @@ export const WhatsNeptune = () => {
         icons, fonts, or to define values like hue and sizes (and therefore
         saving palette description as well)
       </p>
+      </div>
+      <div className="subsection">
       <p>
         Thanks to that you can write a front-end almost entirely from the
         back-end.
@@ -51,6 +57,7 @@ export const WhatsNeptune = () => {
         </a>{' '}
         to not miss any update.
       </p>
-    </>
+      </div>
+    </section>
   );
 };

@@ -1,8 +1,9 @@
+import { PageTitle, SectionTitle, Headline } from "neptunes-components";
 export const LandingPage = () => {
   return (
     <div className="landing-page">
-      <h1>Neptune</h1>
-      <h2>Tools to develope your front-end application faster and easiert</h2>
+      <PageTitle pageTitle = "Neptune" />
+      <Headline headline = "Tools to develope your front-end application faster and easier" />
       <section>
         <>
           <p>

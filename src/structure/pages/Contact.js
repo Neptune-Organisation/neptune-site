@@ -1,7 +1,8 @@
+import { PageTitle } from "neptunes-components"
 export const Contact = () => {
     return(
         <>
-        <h1>Contact</h1>
+        <PageTitle pageTitle = "Contact" />
         <form>
             <label htmlFor="fName" required>First Name
                 <input type="text" />

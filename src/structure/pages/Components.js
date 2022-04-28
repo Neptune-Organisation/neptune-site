@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import components from '../../data/components.json';
 import { Renderer } from '../components/Renderer';
-
+import { CodeRenderer } from '../components/CodeRenderer';
+import { Button } from 'neptunes-components';
 export const Components = () => {
   const componentList = components.componentList;
   const [activeComponent, setActiveComponent] = useState(0);
@@ -13,31 +14,46 @@ export const Components = () => {
   const componentPropsList = componentList[activeComponent].propsList;
   const componentExposition = componentList[activeComponent].exposition;
 
+  const updateActiveComponent = (e) => {
+    console.log(Object.values(e.target.value))
+  }
+
   return (
     <div className="components">
       <div className="components__sidebar">
         <h2>Components</h2>
+
         <menu className="components__sidebar-list">
-          {componentList.map((component) => (
-            <>
-              <p
-                onClick={() =>
-                  setActiveComponent(componentList.indexOf(component))
-                }
-              >
-                {`< ${component.name} />`}
-              </p>
-            </>
-          ))}
+          <>
+            {componentList.map((component) => (
+              <>
+                <p
+                  onClick={() =>
+                    setActiveComponent(componentList.indexOf(component))
+                  }
+                >
+                  {`< ${component.name} />`}
+                </p>
+              </>
+            ))}
+          </>
         </menu>
       </div>
       <div className="components__main-display">
-        <h2>{componentName}</h2>
-        <p>{componentCategory}</p>
+        {/* <div className="components__dropdown">
+          <select name="" id="" onChange = {e => updateActiveComponent(e)}>
+            {componentList.map((component) => (
+              <option value={component}>
+                {component.name}
+              </option>
+            ))}
+          </select>
+        </div> */}
+        <h2>{`<${componentName} />`}</h2>
         <p>{componentImage}</p>
         <Renderer component={componentName} />
-        <p>{componentReactCode}</p>
-        <p>{componentScssCode}</p>
+        <CodeRenderer activeComponent={componentList[activeComponent]} />
+
         {componentExposition && <p>{componentExposition}</p>}
         {componentPropsList &&
           componentPropsList.map((component) => (

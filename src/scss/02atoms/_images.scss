@@ -55,6 +55,11 @@
     @include fullFourThreeContainer
 }
 
+.code-image{
+    @include bigFourThreeContainer;
+    overflow: scroll;
+}
+
 .small-34Image{
     @include smallThreeFourContainer
 }

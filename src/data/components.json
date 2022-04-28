@@ -5,8 +5,8 @@
       "name": "ArticleTitle",
       "category": "Text Components",
       "componentImage": "",
-      "reactCodeImage": "",
-      "scssCodeImage": "",
+      "reactCodeImage": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmVhY3R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "scssCodeImage": "https://images.unsplash.com/photo-1517134191118-9d595e4c8c2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2Nzc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
       "propsList": [{ "name": "" }, { "required": "" }],
       "exposition": ""
     },

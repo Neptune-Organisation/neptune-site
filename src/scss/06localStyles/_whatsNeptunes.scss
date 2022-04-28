@@ -1,0 +1,8 @@
+@use "../01subAtoms/subAtoms" as *;
+
+.subsection{
+    margin: 1.5vh 0;
+    padding-bottom: 2vh;
+    border: 0px solid $primaryColMuted;
+    border-bottom-width: 5px;
+}

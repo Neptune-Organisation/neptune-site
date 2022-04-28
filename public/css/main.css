@@ -6,6 +6,11 @@
   font-size: 10px;
 }
 
+body {
+  padding: 0;
+  margin: 0;
+}
+
 article,
 aside,
 details,
@@ -157,6 +162,17 @@ to implement in the future. Question: font size depending on the screen width, o
   line-height: 1.9em;
   margin-bottom: 0.5em;
   max-width: 75ch;
+}
+
+.code {
+  font-family: "Advent Pro", sans-serif;
+  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  color: gray;
+  line-height: 1.9em;
+  margin-bottom: 0.5em;
+  max-width: 75ch;
+  font-family: "IBM Plex Mono", monospace;
+  color: #53acac;
 }
 
 .clossure {
@@ -540,6 +556,13 @@ sup {
   width: 100vw;
   aspect-ratio: 4/3;
   object-fit: cover;
+}
+
+.code-image {
+  width: clamp(100px, 80vw, 500px);
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  overflow: scroll;
 }
 
 .small-34Image {
@@ -1821,7 +1844,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   align-items: center;
 }
 
-main {
+.main {
   margin: 0 0 40vh 0;
   padding: 0 5vw;
 }
@@ -1857,7 +1880,10 @@ h4{
 }
 
 section {
-  margin: 15vh 0;
+  margin: 0;
+  padding: 0 10vw;
+  display: flex;
+  flex-direction: column;
 }
 
 .test {
@@ -1868,6 +1894,10 @@ section {
 
 .components {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 3vh;
 }
 .components__sidebar {
   width: 15%;
@@ -1878,7 +1908,7 @@ section {
 }
 .components__sidebar-list {
   overflow: scroll;
-  height: 60vh;
+  height: 20vh;
 }
 .components__main-display {
   width: 60vw;
@@ -1886,6 +1916,36 @@ section {
   flex-direction: column;
   align-items: center;
   padding-left: 5em;
+}
+.components__dropdown {
+  margin-top: 5vh;
+  outline: 1px solid #53acac;
+  border-radius: 5px;
+}
+
+.code-renderer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.code-renderer__buttons {
+  display: flex;
+}
+.code-renderer__btn {
+  width: fit-content;
+  margin: 1.5em 1.5em;
+}
+
+.about-me__img {
+  display: block;
+  margin: 5vh auto;
+}
+
+.subsection {
+  margin: 1.5vh 0;
+  padding-bottom: 2vh;
+  border: 0px solid #53acac;
+  border-bottom-width: 5px;
 }
 
 .btn :hover {
@@ -2010,6 +2070,14 @@ a :focus {
 @media screen and (min-width: 800px) {
   .contact-field__label {
     max-width: 500px;
+  }
+
+  .components {
+    display: flex;
+    flex-direction: row;
+  }
+  .components__sidebar-list {
+    height: 60vh;
   }
 }
 @media screen and (min-width: 834px) {
