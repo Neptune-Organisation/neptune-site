@@ -1,0 +1,8 @@
+{
+    "listClass" : "",
+    "listContainerClass" : "",
+    "listTitle" : "List Title",
+    "listTitleClass" : "",
+    "listEntries" : ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"],
+    "listEntryClass" : ""
+}

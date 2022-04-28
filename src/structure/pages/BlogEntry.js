@@ -1,4 +1,4 @@
-const BlogEntry = (props) => {
+export const BlogEntry = (props) => {
     return (
         <div className="blog-entry">
             <h1>Blog Title</h1>
@@ -10,5 +10,3 @@ const BlogEntry = (props) => {
         </div>
     )
 }
-
-export default BlogEntry

@@ -1,0 +1,22 @@
+@use "../01subAtoms/subAtoms" as *;
+.components{
+    display: flex;
+    
+    &__sidebar{
+        width: 15%;
+        min-width: fit-content;
+        padding: 3em 0 0 1.5em;
+        @include borderThin;
+    }
+    
+    &__sidebar-list {
+        overflow: scroll;
+        height: 60vh;
+    }
+    &__main-display{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 5em;
+    }
+}

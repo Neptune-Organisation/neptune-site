@@ -1,20 +1,18 @@
 @use "../01subAtoms/subAtoms" as *;
 @media screen and (min-width: 600px) {
+  .hero {
+    flex-direction: row;
 
-    .hero{
-        flex-direction: row;
-
-        &__img{
-            width: 50%;
-        }
-
-        &__text{
-            width: 50%;
-        }
+    &__img {
+      width: 50%;
     }
 
-    .card{
-        width: 50vw;
+    &__text {
+      width: 50%;
     }
+  }
 
+  .card {
+    width: 50vw;
+  }
 }

@@ -2,54 +2,13 @@
 
 .header {
   /* position: fixed;
-  inset: 0 0 auto 0;  */
-  margin: 0;
-  margin-bottom: 3vh;
+  inset: 0 0 auto 0; */
   padding: 2.5vh 5vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  background-color: $mainCol;
-  /* width: 100vw; */
-
+  background-color: $primaryColMuted;
+  
   &__up{
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    align-items: center;
   }
-
-  &__icon{
-    padding: 0 5vw;
-    /* outline: 1px solid red; */
-  }
-
-  &__down p{
-    color: $white;
-    font-family: $secondaryFont;
-    font-size: $f3;
-    font-weight: 300;
-    padding: 0 20vw;
-    text-align: center;
-  }
-}
-
-
-.main-title {
-  font-family: $mainFont;
-  font-size: $f6;
-  font-weight: 700;
-  color: $white;
-  line-height: 0.8em;
-  margin-bottom: 0.5em;
-  text-align: center;
-}
-.page-title {
-  font-family: $mainFont;
-  font-size: $f5;
-  font-weight: 700;
-  color: $white;
-  line-height: 0.8em;
-  margin-bottom: 0.5em;
-  text-align: center;
 }

@@ -1,7 +1,10 @@
 export const Installation = () => {
+
   return (
     <>
       <h1>Installation</h1>
+      <h3>Your installation depends on your needs</h3>
+      <h2>What do you need?</h2>
       <>
         <h3>I need the Components</h3>
         <p>npm i neptunes-components</p>

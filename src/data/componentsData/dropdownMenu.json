@@ -1,0 +1,13 @@
+{
+  "dropdownMenuClass": "",
+  "dropdownSelectClass": "",
+  "menuOptions": [
+      { "val": "", "txt": "Monday" },
+      { "val": "", "txt": "Tuesday" },
+      { "val": "", "txt": "Wednesday" },
+      { "val": "", "txt": "Thursday" }
+],
+  "dropdownMenuLabel": "",
+  "btnClass" : "",
+  "txt" : "send"
+}

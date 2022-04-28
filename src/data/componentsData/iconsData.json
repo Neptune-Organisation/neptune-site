@@ -1,0 +1,18 @@
+{
+  "iconList": [
+    {
+        "icon" : "email",
+        "className" : "iconBig"
+    },  
+    {
+        "icon" : "whatsapp",
+        "className" : ""
+    },  
+    {
+        "icon" : "neptune",
+        "className" : ""
+    }
+],
+  "iconsContainerClass": "",
+  "iconClass": ""
+}

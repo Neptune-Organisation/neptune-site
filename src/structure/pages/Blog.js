@@ -1,6 +1,6 @@
 import BlogPreview from "../components/BlogPreview"
 
-const Blog = () => {
+export const Blog = () => {
 
     const blogData = [
         {
@@ -28,5 +28,3 @@ const Blog = () => {
         </div>
     )
 }
-
-export default Blog

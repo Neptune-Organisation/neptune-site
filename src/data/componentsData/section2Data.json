@@ -1,0 +1,32 @@
+{
+  "sectionBodyClass": "",
+  "sectionOrder": [
+    {
+      "tag": "image",
+      "imgUrl": "https://images.unsplash.com/photo-1650291879584-0e3944c6c815?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+      "imgAlt": "Second Section First Image",
+      "imgClass": "full-69Image"
+    },
+    {
+      "tag": "title",
+      "sectionTitle": {
+        "sectionTitle": "Second Section Title",
+        "sectionTitleClass": "section-title"
+      }
+    },
+    {
+      "tag": "body",
+      "subsectionId": "0",
+      "headline": "Subsection 2A Title",
+      "headlineClass" : "",
+      "body": "text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text  ",
+      "bodyClass" : ""
+    },
+    {
+      "tag": "image",
+      "imgUrl": "https://images.unsplash.com/photo-1650336036262-8f2b54cdf4d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+      "imgAlt": "Second Image",
+      "imgClass": "med-squareImage"
+    }
+  ]
+}

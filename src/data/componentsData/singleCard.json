@@ -1,0 +1,15 @@
+{
+    "cardClass" : "card",
+    "imgUrl" : "https://images.unsplash.com/photo-1650205511636-12479f0133d4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+    "imgClass" : "card__rectangleImg",
+    "imgAlt" : "group portrait",
+    "cardTitle" : "Card Title",
+    "titleClass" : "card__title",
+    "fName" : "fName",
+    "lName" : "lName",
+    "nameClass" : "",
+    "personPosition" : "Person Position",
+    "personPositionClass" : "",
+    "bodyClass" : "",
+    "cardBody" : "Card body, body, body"
+}

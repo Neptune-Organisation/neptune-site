@@ -1,0 +1,23 @@
+{
+    "navbarClass" : "navbar__horizontal",
+    "navbars" : [
+        {
+            "linkClass" : "",
+            "target" : "_blank",
+            "url" : "https://angular.io/",
+            "txt" : "Angular"
+        },
+        {
+            "linkClass" : "",
+            "target" : "_blank",
+            "url" : "https://vuejs.org/",
+            "txt" : "Vue"
+        },
+        {
+            "linkClass" : "",
+            "target" : "_blank",
+            "url" : "https://reactjs.org/",
+            "txt" : "React"
+        }
+    ]
+}

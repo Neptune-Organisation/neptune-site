@@ -1,11 +1,3 @@
-import MainGoal from '../components/MainGoal.js';
-import SecondaryGoals from '../components/SecondaryGoals';
-import MainFeatures from '../components/MainFeatures.js';
-import Ussage from '../components/Ussage.js';
-import Examples from '../components/Examples';
-import StayConnected from '../components/StayConnected';
-import CommingSoon from '../components/CommingSoon';
-
 export const LandingPage = () => {
   return (
     <div className="landing-page">
@@ -33,7 +25,7 @@ export const LandingPage = () => {
           </p>
         </>
       </section>
-      <section>
+     {/*  <section>
         <h3>Acknowledgment</h3>
         <p>
           I'm a self-made developer, which means I'm plenty of failures. Lucky
@@ -60,7 +52,7 @@ export const LandingPage = () => {
             UI / UX
           </li>
         </ul>
-      </section>
+      </section> */}
     </div>
   );
 };

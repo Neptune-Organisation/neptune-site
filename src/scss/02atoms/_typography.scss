@@ -1,139 +1,88 @@
 @use "../01subAtoms/subatoms" as *;
 
-h1 {
+@mixin h1 {
   font-family: $mainFont;
-  font-size: $f5;
+  font-size: $f6;
   font-weight: 700;
-  color: $mainCol;
-  line-height: 0.8em;
+  color: $primaryCol;
+  line-height: 1.2em;
   margin-bottom: 0.5em;
-  text-align: center;
 }
 
-/* header{
-  
-} */
-h2 {
+@mixin h2 {
   font-family: $mainFont;
-  font-size: $f5;
-  font-weight: 400;
-  color: $mainCol;
-  line-height: 0.8em;
-  margin-bottom: 1em;
-  text-align: center;
-}
-
-h3 {
-  font-family: $mainFont;
-  font-size: $f4;
+  font-size: $f6;
   font-weight: 400;
   color: $primaryCol;
   line-height: 1.2em;
   margin-bottom: 0.5em;
 }
 
-p {
+@mixin h3 {
   font-family: $mainFont;
-  font-size: $f3;
+  font-size: $f5;
   font-weight: 400;
   color: $primaryCol;
-  line-height: 2em;
+  line-height: 1.6em;
   margin-bottom: 0.5em;
 }
 
-.boldText{
+@mixin h4 {
   font-family: $mainFont;
   font-size: $f3;
   font-weight: 700;
-  color: $primaryColMuted;
-  line-height: 2em;
+  color: $primaryCol;
+  line-height: 1.6em;
   margin-bottom: 0.5em;
 }
 
-input,
-textarea,
-figcaption,
-label,
-textarea,
-li,
-select,
-option {
+@mixin h5 {
+  font-family: $mainFont;
+  font-size: $f3;
+  font-weight: 700;
+  color: $primaryCol;
+  line-height: 1.6em;
+  margin-bottom: 0.5em;
+}
+
+@mixin p {
+  font-family: $mainFont;
+  font-size: $f3;
+  color: $primaryCol;
+  line-height: 1.9em;
+  margin-bottom: 0.5em;
+  max-width: 75ch;
+}
+
+
+@mixin label-style {
   font-family: $mainFont;
   font-size: $f3;
   font-weight: 400;
   color: $primaryCol;
-  margin: 0.5em 0;
-  line-height: 2em;
+  line-height: 1.6em;
+  margin-bottom: 0.5em;
+  border: none;
 }
 
-li{
-  margin: 1em 0;
+@mixin input {
+  font-family: $mainFont;
+  font-size: $f3;
+  font-weight: 400;
+  color: $primaryCol;
+  line-height: 1.6em;
+  border: none;
 }
 
-label{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  color: $white;
-}
-
-img {
+@mixin img {
   font-family: $mainFont;
   font-size: $f1;
   font-weight: 200;
   color: $primaryCol;
 }
 
-a {
-  font-family: $mainFont;
-  font-size: $f3;
-  font-weight: 400;
-  background-color: transparent;
-  text-decoration: none;
-  color: $primaryColMuted;
-  &:hover {
-    color: $primaryCol;
-  }
-  :active {
-    color: white;
-    background-color: $primaryCol;
-  }
-  :focus {
-    color: $primaryColMuted;
-    background-color: $primaryCol;
-  }
-}
 
-button {
-
-  background-color: transparent;
-  text-decoration: none;
-  padding: .5em 1em;
-
-  &:hover {
-    color: $primaryCol;
-  }
-  :active {
-    color: white;
-    background-color: $primaryCol;
-  }
-  :focus {
-    color: $primaryColMuted;
-    background-color: $primaryCol;
-  }
-}
-
-button{
-  margin: 1em 0;
-  color: $white;
-}
-
-select {
-  padding: 0.75em 1.25em;
-}
-
-blockquote {
+@mixin blockquote {
   font-family: $mainFont;
   font-size: $f3;
   font-weight: 700;
@@ -152,25 +101,19 @@ blockquote {
   }
 }
 
-code,
-kbd,
-samp {
+@mixin code-style {
   font-family: monospace, monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
 
-sub,
-sup {
+@mixin sub-sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
   vertical-align: baseline;
 }
 
-sub {
-  bottom: -0.25em;
+*::selection {
+  color: $compCol;
 }
 
-sup {
-  top: -0.5em;
-}

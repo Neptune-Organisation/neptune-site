@@ -1,4 +1,4 @@
-const Impressum = () => {
+export const Impressum = () => {
     return(
         <div class='impressum'>
             <h1>Impressum</h1>
@@ -20,5 +20,3 @@ const Impressum = () => {
             <p>Impressum vom <a href="https://www.impressum-generator.de">Impressum Generator</a> der <a href="https://www.kanzlei-hasselbach.de/">Kanzlei Hasselbach, Rechtsanwälte für Arbeitsrecht und Familienrecht</a></p>
 </div>
 )}
-
-export default Impressum

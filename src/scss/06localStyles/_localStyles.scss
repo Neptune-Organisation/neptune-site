@@ -1,10 +1,3 @@
-@forward "comming-soon";
-@forward "examples";
-@forward "main-features";
-@forward "main-goal";
-@forward "secondary-goals";
-@forward "stay-connected";
-@forward "ussage";
-@forward "blog-preview";
-@forward "about-me";
-@forward "impressum"
+@use '../08layouts/divLayouts/divLayouts' as *;
+@forward './test';
+@use './components';

@@ -2,7 +2,7 @@ import EmailIcon from "../../assets/icons/emailIcon.svg"
 import GitIcon from "../../assets/icons/gitIcon.svg"
 import TwitterIcon from "../../assets/icons/twitterIcon.svg"
 
-const Footer = () => {
+export const Footer = () => {
     return(
         <section className="footer">
             <div className="footer__navbar">
@@ -19,5 +19,3 @@ const Footer = () => {
         </section>
     )
 }
-
-export default Footer

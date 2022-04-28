@@ -1,0 +1,24 @@
+{
+  "formClass": "",
+  "titleClass": "",
+  "fields": [
+    {
+      "inputLabel": "First Name",
+      "htmlLabel": "",
+      "containerClass": "",
+      "labelClass": "",
+      "inputType": "",
+      "inputClass": "",
+      "minLength": "",
+      "maxLength": "",
+      "required": ""
+    }
+  ],
+  "title": "Form Title",
+  "txtAreaName": "Text Area",
+  "txtAreaId": "0102",
+  "button": {
+    "btnClass": "",
+    "txt": "submit"
+  }
+}

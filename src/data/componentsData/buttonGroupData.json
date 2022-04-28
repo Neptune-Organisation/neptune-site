@@ -1,0 +1,16 @@
+{
+    "buttons" : [
+        {
+            "btnClass" : "",
+            "txt" : "send"
+        },
+        {
+            "btnClass" : "",
+            "txt" : "more"
+        },
+        {
+            "btnClass" : "",
+            "txt" : "accept"
+        }
+    ]
+}

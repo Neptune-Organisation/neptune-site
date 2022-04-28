@@ -1,6 +1,6 @@
-import data from "../../data/dataIndex";
+import data from "../../data/aboutMe.json";
 console.log(data)
-const AboutMe = () => {
+export const AboutMe = () => {
     return(
         <section className="about-me">
             <h1>About Me</h1>
@@ -11,5 +11,3 @@ const AboutMe = () => {
         </section>
     )
 }
-
-export default AboutMe

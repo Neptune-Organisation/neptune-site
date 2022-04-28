@@ -1,20 +1,12 @@
-@use "../01subAtoms/subAtoms" as *;
 .iconSmall {
-    width: 40px;
-    height: 20px;
-  }
-  .iconMed {
-    width: 40px;
-    height: 40px;
-  }
-  .iconBig {
-    width: 60px;
-    height: 60px;
-  }
-  .iconGig{
-    width: 80px;
-    height: 80px;
-    /* border: 1px solid $mainCol; */
-    border-radius: 50%;
-    padding: 1em;
-  }
+  width: 40px;
+  height: 40px;
+}
+.iconMed {
+  width: 60px;
+  height: 60px;
+}
+.iconBig {
+  width: 80px;
+  height: 80px;
+}
