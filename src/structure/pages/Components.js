@@ -5,7 +5,6 @@ import { Renderer } from '../components/Renderer';
 export const Components = () => {
   const componentList = components.componentList;
   const [activeComponent, setActiveComponent] = useState(0);
-  /* console.log(componentList[activeComponent]); */
   const componentName = componentList[activeComponent].name;
   const componentCategory = componentList[activeComponent].category;
   const componentImage = componentList[activeComponent].componentImage;
@@ -18,7 +17,7 @@ export const Components = () => {
     <div className="components">
       <div className="components__sidebar">
         <h2>Components</h2>
-        <menu className='components__sidebar-list'>
+        <menu className="components__sidebar-list">
           {componentList.map((component) => (
             <>
               <p
@@ -36,17 +35,17 @@ export const Components = () => {
         <h2>{componentName}</h2>
         <p>{componentCategory}</p>
         <p>{componentImage}</p>
-        <Renderer component = {componentName} />
+        <Renderer component={componentName} />
         <p>{componentReactCode}</p>
         <p>{componentScssCode}</p>
         {componentExposition && <p>{componentExposition}</p>}
         {componentPropsList &&
-          componentPropsList.map(component => (
-              <>
-                <p>{component.name}</p>
-                <p>{component.required}</p>
-              </>
-          ) )}
+          componentPropsList.map((component) => (
+            <>
+              <p>{component.name}</p>
+              <p>{component.required}</p>
+            </>
+          ))}
       </div>
     </div>
   );

@@ -216,11 +216,6 @@ export const Renderer = (props) => {
         <ButtonGroup buttons={Data.buttonGroupData.buttons} />
       )}
 
-      {/* RE-TEST */}
-
-      {/* NOT WORKING */}
-
-      {/* {component === "toggle" && <Toggle />} */}
       {component === 'Hero' && (
         <Hero
           heroClass={Data.heroData.heroClass}

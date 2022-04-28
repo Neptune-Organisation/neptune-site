@@ -2,76 +2,23 @@
   "pageTitle": "Components",
   "componentList": [
     {
-      "name": "Button",
-      "category": "Basic Components",
-      "componentImage": "it's not an image, but the very component, rendered in the browser",
-      "reactCodeImage": [],
-      "scssCodeImage": "",
-      "propsList": [ {"name" : ""}, {"required": "" }],
-      "exposition" : ""
-    },
-    {
-      "name": "Card",
-      "category": "Basic Components",
-      "componentImage": "",
-      "reactCodeImage": "",
-      "scssCodeImage": "",
-      "propsList": [ {"name" : ""}, {"required": "" }],
-      "exposition" : ""
-    },
-    {
-      "name": "Form",
-      "category": "Basic Components",
-      "componentImage": "",
-      "reactCodeImage": "",
-      "scssCodeImage": "",
-      "propsList": [ {"name" : ""}, {"required": "" }],
-      "exposition" : ""
-    },
-    {
-      "name": "Icon",
-      "category": "Media Components",
-      "componentImage": "",
-      "reactCodeImage": "",
-      "scssCodeImage": "",
-      "propsList": [ {"name" : ""}, {"required": "" }],
-      "exposition" : ""
-    },
-    {
-      "name": "Image",
-      "category": "Media Components",
-      "componentImage": "",
-      "reactCodeImage": "",
-      "scssCodeImage": "",
-      "propsList": [ {"name" : ""}, {"required": "" }],
-      "exposition" : ""
-    },
-    {
-      "name": "MediaPlayer",
-      "category": "Media Components",
-      "componentImage": "",
-      "reactCodeImage": "",
-      "scssCodeImage": "",
-      "propsList": [ {"name" : ""}, {"required": "" }],
-      "exposition" : ""
-    },
-    {
       "name": "ArticleTitle",
       "category": "Text Components",
       "componentImage": "",
       "reactCodeImage": "",
       "scssCodeImage": "",
-      "propsList": [ {"name" : ""}, {"required": "" }],
-      "exposition" : ""
+      "propsList": [{ "name": "" }, { "required": "" }],
+      "exposition": ""
     },
+
     {
       "name": "Blockquote",
       "category": "Text Components",
       "componentImage": "",
       "reactCodeImage": "",
       "scssCodeImage": "",
-      "propsList": [ {"name" : ""}, {"required": "" }],
-      "exposition" : ""
+      "propsList": [{ "name": "" }, { "required": "" }],
+      "exposition": ""
     },
     {
       "name": "Body",
@@ -79,116 +26,17 @@
       "componentImage": "",
       "reactCodeImage": "",
       "scssCodeImage": "",
-      "propsList": [ {"name" : ""}, {"required": "" }],
-      "exposition" : ""
+      "propsList": [{ "name": "" }, { "required": "" }],
+      "exposition": ""
     },
     {
-      "name": "Byline",
-      "category": "Text Components",
-      "componentImage": "",
-      "reactCodeImage": "",
+      "name": "Button",
+      "category": "Basic Components",
+      "componentImage": "it's not an image, but the very component, rendered in the browser",
+      "reactCodeImage": [],
       "scssCodeImage": "",
-      "propsList": [ {"name" : ""}, {"required": "" }],
-      "exposition" : ""
-    },
-    {
-      "name": "Footnote",
-      "category": "Text Components",
-      "componentImage": "",
-      "reactCodeImage": "",
-      "scssCodeImage": "",
-      "propsList": [ {"name" : ""}, {"required": "" }],
-      "exposition" : ""
-    },
-    {
-      "name": "GroupTitle",
-      "category": "Text Components",
-      "componentImage": "",
-      "reactCodeImage": "",
-      "scssCodeImage": "",
-      "propsList": [ {"name" : ""}, {"required": "" }],
-      "exposition" : ""
-    },
-    {
-      "name": "Headline",
-      "category": "Text Components",
-      "componentImage": "",
-      "reactCodeImage": "",
-      "scssCodeImage": "",
-      "propsList": [ {"name" : ""}, {"required": "" }],
-      "exposition" : ""
-    },
-    {
-      "name": "HeroTitle",
-      "category": "Text Components",
-      "componentImage": "",
-      "reactCodeImage": "",
-      "scssCodeImage": "",
-      "propsList": [ {"name" : ""}, {"required": "" }],
-      "exposition" : ""
-    },
-    {
-      "name": "Link",
-      "category": "Text Components",
-      "componentImage": "",
-      "reactCodeImage": "",
-      "scssCodeImage": "",
-      "propsList": [ {"name" : ""}, {"required": "" }],
-      "exposition" : ""
-    },
-    {
-      "name": "List",
-      "category": "Text Components",
-      "componentImage": "",
-      "reactCodeImage": "",
-      "scssCodeImage": "",
-      "propsList": [ {"name" : ""}, {"required": "" }],
-      "exposition" : ""
-    },
-    {
-      "name": "PageTitle",
-      "category": "Text Components",
-      "componentImage": "",
-      "reactCodeImage": "",
-      "scssCodeImage": "",
-      "propsList": [ {"name" : ""}, {"required": "" }],
-      "exposition" : ""
-    },
-    {
-      "name": "SectionTitle",
-      "category": "Text Components",
-      "componentImage": "",
-      "reactCodeImage": "",
-      "scssCodeImage": "",
-      "propsList": [ {"name" : ""}, {"required": "" }],
-      "exposition" : ""
-    },
-    {
-      "name": "SubHeadline",
-      "category": "Text Components",
-      "componentImage": "",
-      "reactCodeImage": "",
-      "scssCodeImage": "",
-      "propsList": [ {"name" : ""}, {"required": "" }],
-      "exposition" : ""
-    },
-    {
-      "name": "SelectOption",
-      "category": "Text Components",
-      "componentImage": "",
-      "reactCodeImage": "",
-      "scssCodeImage": "",
-      "propsList": [ {"name" : ""}, {"required": "" }],
-      "exposition" : ""
-    },
-    {
-      "name": "Picker",
-      "category": "Interaction Components",
-      "componentImage": "",
-      "reactCodeImage": "",
-      "scssCodeImage": "",
-      "propsList": [ {"name" : ""}, {"required": "" }],
-      "exposition" : ""
+      "propsList": [{ "name": "" }, { "required": "" }],
+      "exposition": ""
     },
     {
       "name": "ButtonGroup",
@@ -196,8 +44,26 @@
       "componentImage": "",
       "reactCodeImage": "",
       "scssCodeImage": "",
-      "propsList": [ {"name" : ""}, {"required": "" }],
-      "exposition" : ""
+      "propsList": [{ "name": "" }, { "required": "" }],
+      "exposition": ""
+    },
+    {
+      "name": "Byline",
+      "category": "Text Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": [{ "name": "" }, { "required": "" }],
+      "exposition": ""
+    },
+    {
+      "name": "Card",
+      "category": "Basic Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": [{ "name": "" }, { "required": "" }],
+      "exposition": ""
     },
     {
       "name": "CardGroup",
@@ -205,44 +71,8 @@
       "componentImage": "",
       "reactCodeImage": "",
       "scssCodeImage": "",
-      "propsList": [ {"name" : ""}, {"required": "" }],
-      "exposition" : ""
-    },
-    {
-      "name": "MediaPlayerGroup",
-      "category": "Group Components",
-      "componentImage": "",
-      "reactCodeImage": "",
-      "scssCodeImage": "",
-      "propsList": [ {"name" : ""}, {"required": "" }],
-      "exposition" : ""
-    },
-    {
-      "name": "ImageGroup",
-      "category": "Group Components",
-      "componentImage": "",
-      "reactCodeImage": "",
-      "scssCodeImage": "",
-      "propsList": [ {"name" : ""}, {"required": "" }],
-      "exposition" : ""
-    },
-    {
-      "name": "IconGroup",
-      "category": "Group Components",
-      "componentImage": "",
-      "reactCodeImage": "",
-      "scssCodeImage": "",
-      "propsList": [ {"name" : ""}, {"required": "" }],
-      "exposition" : ""
-    },
-    {
-      "name": "Hero",
-      "category": "Group Components",
-      "componentImage": "",
-      "reactCodeImage": "",
-      "scssCodeImage": "",
-      "propsList": [ {"name" : ""}, {"required": "" }],
-      "exposition" : ""
+      "propsList": [{ "name": "" }, { "required": "" }],
+      "exposition": ""
     },
     {
       "name": "DropdownMenu",
@@ -250,8 +80,179 @@
       "componentImage": "",
       "reactCodeImage": "",
       "scssCodeImage": "",
-      "propsList": [ {"name" : ""}, {"required": "" }],
-      "exposition" : ""
+      "propsList": [{ "name": "" }, { "required": "" }],
+      "exposition": ""
+    },
+    {
+      "name": "Form",
+      "category": "Basic Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": [{ "name": "" }, { "required": "" }],
+      "exposition": ""
+    },
+    {
+      "name": "Footnote",
+      "category": "Text Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": [{ "name": "" }, { "required": "" }],
+      "exposition": ""
+    },
+    {
+      "name": "GroupTitle",
+      "category": "Text Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": [{ "name": "" }, { "required": "" }],
+      "exposition": ""
+    },
+    {
+      "name": "Headline",
+      "category": "Text Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": [{ "name": "" }, { "required": "" }],
+      "exposition": ""
+    },
+    {
+      "name": "Hero",
+      "category": "Group Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": [{ "name": "" }, { "required": "" }],
+      "exposition": ""
+    },
+    {
+      "name": "HeroTitle",
+      "category": "Text Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": [{ "name": "" }, { "required": "" }],
+      "exposition": ""
+    },
+    {
+      "name": "Icon",
+      "category": "Media Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": [{ "name": "" }, { "required": "" }],
+      "exposition": ""
+    },
+    {
+      "name": "IconGroup",
+      "category": "Group Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": [{ "name": "" }, { "required": "" }],
+      "exposition": ""
+    },
+    {
+      "name": "Image",
+      "category": "Media Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": [{ "name": "" }, { "required": "" }],
+      "exposition": ""
+    },
+    {
+      "name": "ImageGroup",
+      "category": "Group Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": [{ "name": "" }, { "required": "" }],
+      "exposition": ""
+    },
+    {
+      "name": "Link",
+      "category": "Text Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": [{ "name": "" }, { "required": "" }],
+      "exposition": ""
+    },
+    {
+      "name": "List",
+      "category": "Text Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": [{ "name": "" }, { "required": "" }],
+      "exposition": ""
+    },
+    {
+      "name": "MediaPlayer",
+      "category": "Media Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": [{ "name": "" }, { "required": "" }],
+      "exposition": ""
+    },
+    {
+      "name": "MediaPlayerGroup",
+      "category": "Group Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": [{ "name": "" }, { "required": "" }],
+      "exposition": ""
+    },
+    {
+      "name": "PageTitle",
+      "category": "Text Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": [{ "name": "" }, { "required": "" }],
+      "exposition": ""
+    },
+    {
+      "name": "Picker",
+      "category": "Interaction Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": [{ "name": "" }, { "required": "" }],
+      "exposition": ""
+    },
+    {
+      "name": "SectionTitle",
+      "category": "Text Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": [{ "name": "" }, { "required": "" }],
+      "exposition": ""
+    },
+    {
+      "name": "SelectOption",
+      "category": "Text Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": [{ "name": "" }, { "required": "" }],
+      "exposition": ""
+    },
+    {
+      "name": "SubHeadline",
+      "category": "Text Components",
+      "componentImage": "",
+      "reactCodeImage": "",
+      "scssCodeImage": "",
+      "propsList": [{ "name": "" }, { "required": "" }],
+      "exposition": ""
     }
   ]
 }

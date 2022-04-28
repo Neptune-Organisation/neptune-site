@@ -1694,7 +1694,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
 .hero {
   display: flex;
   flex-direction: column;
-  width: 100vw;
+  width: fit-content;
 }
 .hero__content {
   z-index: 100;
@@ -1844,6 +1844,7 @@ section {
   height: 60vh;
 }
 .components__main-display {
+  width: 60vw;
   display: flex;
   flex-direction: column;
   align-items: center;
