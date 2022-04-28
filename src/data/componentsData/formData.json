@@ -1,24 +1,28 @@
 {
-  "formClass": "",
-  "titleClass": "",
+  "formClass": "form",
+  "titleClass": "form__title",
+  "labelClass" : "",
+  "inputClass" : "",
+  "btnClass" : "test",
+  "formTitle" : "Form Title",
   "fields": [
     {
-      "inputLabel": "First Name",
-      "htmlLabel": "",
-      "containerClass": "",
-      "labelClass": "",
-      "inputType": "",
-      "inputClass": "",
-      "minLength": "",
-      "maxLength": "",
-      "required": ""
+      "label" : "First Name",
+      "inputType" : "text",
+      "required" : ""
+    },
+    {
+      "label" : "Last Name",
+      "inputType" : "text",
+      "required" : ""
+    },
+    {
+      "label" : "E-Mail",
+      "inputType" : "email",
+      "required" : ""
     }
   ],
-  "title": "Form Title",
   "txtAreaName": "Text Area",
   "txtAreaId": "0102",
-  "button": {
-    "btnClass": "",
-    "txt": "submit"
-  }
+  "txt": "submit"
 }

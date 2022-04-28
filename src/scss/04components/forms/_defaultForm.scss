@@ -5,6 +5,11 @@
   display: block;
 }
 
+input{
+  @include borderThin;
+  margin: 1.5em;
+}
+
 .form-input {
   @include borderThin;
 }

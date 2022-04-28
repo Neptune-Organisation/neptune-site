@@ -146,7 +146,7 @@ export const Renderer = (props) => {
         />
       )}
 
-      {component === 'PageTitle' && <PageTitle pageTitle="Neptune" />}
+      {component === 'PageTitle' && <PageTitle pageTitle={Data.textData.pageTitle} pageTitleClass = {Data.textData.pageTitleClass} />}
 
       {component === 'CardGroup' && (
         <CardGroup cards={Data.cardGroupData.cards} />
@@ -165,11 +165,9 @@ export const Renderer = (props) => {
           labelClass={Data.formData.labelClass}
           inputClass={Data.formData.inputClass}
           btnClass={Data.formData.btnClass}
-          fields={Data.formData.fields}
-          title={Data.formData.title}
-          txtAreaName={Data.formData.txtAreaName}
-          txtAreaId={Data.formData.txtAreaId}
+          formTitle={Data.formData.formTitle}
           txt={Data.formData.txt}
+          fields={Data.formData.fields}
         />
       )}
       {component === 'Icon' && (
