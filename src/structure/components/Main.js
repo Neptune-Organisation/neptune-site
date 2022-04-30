@@ -9,20 +9,21 @@ import {Installation} from "../pages/Installation"
 import {Ussage} from "../pages/Ussage"
 import {WhatsNeptune} from "../pages/WhatsNeptune"
 import { Renderer } from '../components/Renderer.js';
+import {Contact} from "../pages/Contact"
 
 export const Main = () => {
   return (
     <div className="main">
       <Routes>
         <Route exact path="/" element={<LandingPage />} />
-        <Route path="/aboutme" element={<AboutMe />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/blog:id" element={<BlogEntry />} />
-        <Route path="/components" element={<Components />} />
-        <Route path="/impressum" element={<Impressum />} />
-        <Route path="/installation" element={<Installation />} />
-        <Route path="/ussage" element={<Ussage />} />
         <Route path="/aboutneptune" element={<WhatsNeptune />} />
+        <Route path="/installation" element={<Installation />} />
+        {/* <Route path="/ussage" element={<Ussage />} /> */}
+        <Route path="/components" element={<Components />} />
+        {/* <Route path="/blog" element={<Blog />} /> */}
+        {/* <Route path="/blog:id" element={<BlogEntry />} /> */}
+        <Route path="/aboutme" element={<AboutMe />} />
+        <Route path="/contact" element={<WhatsNeptune />} />
       </Routes>
     </div>
   );
