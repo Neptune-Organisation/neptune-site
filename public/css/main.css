@@ -1034,6 +1034,7 @@ label {
 }
 .navbar__horizontal a {
   margin: 0 0.5em;
+  color: white;
 }
 .navbar__vertical {
   display: flex;
@@ -1847,6 +1848,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
 .main {
   margin: 0 0 40vh 0;
   padding: 0 5vw;
+  width: 100vw;
 }
 
 /* 
