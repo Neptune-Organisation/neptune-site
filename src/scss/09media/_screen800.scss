@@ -8,9 +8,23 @@
   .components{
     display: flex;
     flex-direction: row;
+    align-items:initial;
+/* 
+    &__sidebar{
+      position: fixed;
+      inset: 10vh 0 auto 3vw;
+    } */
 
     &__sidebar-list{
       height: 60vh;
     }
+  }
+
+  .components__main-display{
+  }
+
+  .footer{
+    position: fixed;
+    inset: auto 0 0 0;
   }
 }

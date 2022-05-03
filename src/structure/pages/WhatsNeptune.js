@@ -40,7 +40,7 @@ export const WhatsNeptune = () => {
         saving palette description as well)
       </p>
       </div>
-      <div className="subsection">
+      <div className="">
       <p>
         Thanks to that you can write a front-end almost entirely from the
         back-end.

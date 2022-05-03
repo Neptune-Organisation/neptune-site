@@ -32,7 +32,7 @@
     {
       "name": "Button",
       "category": "Basic Components",
-      "componentImage": "it's not an image, but the very component, rendered in the browser",
+      "componentImage": "",
       "reactCodeImage": [],
       "scssCodeImage": "",
       "propsList": [{ "name": "" }, { "required": "" }],

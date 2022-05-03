@@ -25,10 +25,10 @@ export const AboutMe = () => {
         Most of my live I was a musician. Although I'm still in contact with
         music, nowadays I spend most of my time thinking on how to{' '}
         <span className="boldText">bring into life every idea I have</span> and
-        learning about <span className="boldText">awesome technologies</span>{' '}
+        learning about <span className="bold">awesome technologies</span>{' '}
         and <span className="boldText">design.</span>
       </p>
-      <Body body="Let's get in touch!" bodyClass="about-me__body" />
+      <Body body="Let's get in touch!" />
     </section>
   );
 };

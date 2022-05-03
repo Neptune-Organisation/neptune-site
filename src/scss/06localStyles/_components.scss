@@ -8,8 +8,15 @@
     &__sidebar{
         width: 15%;
         min-width: fit-content;
-        padding: 3em 0 0 1.5em;
         @include borderThin;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1vh 2vw;
+    }
+
+    &__sidebar-title{
+        margin-top: 0;
     }
     
     &__sidebar-list {
@@ -22,8 +29,14 @@
         flex-direction: column;
         align-items: center;
         padding-left: 5em;
+        padding: 1em 0;
+        overflow: hidden;
     }
 
+    &__main-displayTitle{
+        font-size: $f5;
+    }
+    
     &__dropdown{
         margin-top: 5vh;
         outline: 1px solid $primaryColMuted;

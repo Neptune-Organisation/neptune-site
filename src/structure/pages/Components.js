@@ -21,7 +21,7 @@ export const Components = () => {
   return (
     <div className="components">
       <div className="components__sidebar">
-        <h2>Components</h2>
+        <h2 className='components__sidebar-title'>Components</h2>
 
         <menu className="components__sidebar-list">
           <>
@@ -49,7 +49,7 @@ export const Components = () => {
             ))}
           </select>
         </div> */}
-        <h2>{`<${componentName} />`}</h2>
+        <h2 className='components__main-displayTitle'>{`<${componentName} />`}</h2>
         <p>{componentImage}</p>
         <Renderer component={componentName} />
         <CodeRenderer activeComponent={componentList[activeComponent]} />
