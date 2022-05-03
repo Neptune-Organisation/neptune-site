@@ -1,11 +1,12 @@
 import { PageTitle, Image, Body, Link } from 'neptunes-components';
 import data from '../../data/aboutMe.json';
+import Portrait from "../../assets/images/portrait.jpg"
 export const AboutMe = () => {
   return (
     <section className="about-me">
       <PageTitle pageTitle="About Me" />
       <Image
-        imgUrl="https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZ3JhbW1lcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+        imgUrl={Portrait}
         imgClass="half-roundImage about-me__img"
       />
       <Body

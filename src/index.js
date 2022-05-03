@@ -33,7 +33,7 @@ const colRef = collection(db, 'books');
 
 getDocs(colRef)
   .then((snapshot) => {
-    console.log(snapshot.docs)
+    /* console.log(snapshot.docs) */
   })
 
 

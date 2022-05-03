@@ -1,6 +1,6 @@
 /* @use "typography" as *; */
+@use "../01subAtoms/subAtoms" as *;
 @use "../02atoms/typography" as *;
-@use "../01subAtoms/subatoms" as *;
 
 .page-title {
   @include h1;
@@ -35,12 +35,6 @@
 .body {
   font-weight: 400;
   @include p;
-}
-
-.code {
-  @include p;
-  font-family: $codeFont;
-  color: $primaryColMuted;
 }
 
 .clossure{
@@ -87,6 +81,9 @@ li {
   padding: 0;
   margin: 0;
   text-align: left;
+  &::before {
+    content: "* ";
+  }
   @include p;
 }
 
@@ -133,7 +130,7 @@ p {
 }
 
 a{
-  @include p;
+  /* @include p; */
   text-decoration: none;
 }
 

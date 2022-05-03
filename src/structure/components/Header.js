@@ -8,7 +8,7 @@ export const Header = () => {
             <div className="header__up">
                 <img src={NeptuneIcon} alt="" className="iconMed header__icon"/>
                 <img src={WaveIcon} alt="" className="iconMed header__icon"/>
-                <Navbar />
+                {/* <Navbar /> */}
             </div>
         </section>
     )

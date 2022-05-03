@@ -32,11 +32,15 @@ export function App() {
     getBooks();
   }, []);
 
+ 
+  
+  
+
   return (
     <div className="App">
-      <Header />
+      {<Header />}
       <Main />
-      <Footer />
+      {<Footer />}
     </div>
   );
 }

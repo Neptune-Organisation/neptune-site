@@ -24,7 +24,7 @@ export const Main = () => {
         {/* <Route path="/blog" element={<Blog />} /> */}
         {/* <Route path="/blog:id" element={<BlogEntry />} /> */}
         <Route path="/aboutme" element={<AboutMe />} />
-        <Route path="/contact" element={<WhatsNeptune />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
   );

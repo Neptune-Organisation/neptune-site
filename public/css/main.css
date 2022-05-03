@@ -53,17 +53,6 @@ template {
 /* saturation */
 /* brightness */
 /* $secondFont : 'Roboto Slab', serif; */
-/* @use "./root-fontSize";
-
-@function fontSize ($fs) {
-    @return $fs * 4 / 3
-}
-
-to implement in the future. Question: font size depending on the screen width, or on the :root value?
- */
-/* paragraph + h3 */
-/* h2 */
-/* h1 */
 /* SIZE */
 /* ASPECT RATIO */
 /* CONTENT */
@@ -75,8 +64,8 @@ to implement in the future. Question: font size depending on the screen width, o
 }
 
 .iconMed {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
 }
 
 .iconBig {
@@ -91,7 +80,7 @@ to implement in the future. Question: font size depending on the screen width, o
 /* @use "typography" as *; */
 .page-title {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(4rem, 0.5vw, 6.25rem);
+  font-size: clamp(4rem, 10px, 6.25rem);
   font-weight: 700;
   color: gray;
   line-height: 1.2em;
@@ -102,7 +91,7 @@ to implement in the future. Question: font size depending on the screen width, o
 .hero__title {
   text-align: center;
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(4rem, 0.5vw, 6.25rem);
+  font-size: clamp(4rem, 10px, 6.25rem);
   font-weight: 700;
   color: gray;
   line-height: 1.2em;
@@ -111,7 +100,7 @@ to implement in the future. Question: font size depending on the screen width, o
 
 .article-title {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(4rem, 0.5vw, 6.25rem);
+  font-size: clamp(4rem, 10px, 6.25rem);
   font-weight: 400;
   color: gray;
   line-height: 1.2em;
@@ -120,7 +109,7 @@ to implement in the future. Question: font size depending on the screen width, o
 
 .section-title {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(3.3rem, 0.5vw, 5.6rem);
+  font-size: clamp(3.3rem, 10px, 5.6rem);
   font-weight: 400;
   color: gray;
   line-height: 1.6em;
@@ -129,7 +118,7 @@ to implement in the future. Question: font size depending on the screen width, o
 
 .headline {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   font-weight: 700;
   color: gray;
   line-height: 1.6em;
@@ -138,7 +127,7 @@ to implement in the future. Question: font size depending on the screen width, o
 
 .group-title {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   font-weight: 700;
   color: gray;
   line-height: 1.6em;
@@ -147,7 +136,7 @@ to implement in the future. Question: font size depending on the screen width, o
 
 .subheadline {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   font-weight: 700;
   color: gray;
   line-height: 1.6em;
@@ -157,27 +146,16 @@ to implement in the future. Question: font size depending on the screen width, o
 .body {
   font-weight: 400;
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   color: gray;
   line-height: 1.9em;
   margin-bottom: 0.5em;
   max-width: 75ch;
-}
-
-.code {
-  font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
-  color: gray;
-  line-height: 1.9em;
-  margin-bottom: 0.5em;
-  max-width: 75ch;
-  font-family: "IBM Plex Mono", monospace;
-  color: #53acac;
 }
 
 .clossure {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(3.3rem, 0.5vw, 5.6rem);
+  font-size: clamp(3.3rem, 10px, 5.6rem);
   font-weight: 400;
   color: gray;
   line-height: 1.6em;
@@ -187,7 +165,7 @@ to implement in the future. Question: font size depending on the screen width, o
 .bold {
   font-weight: 700;
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   color: gray;
   line-height: 1.9em;
   margin-bottom: 0.5em;
@@ -197,7 +175,7 @@ to implement in the future. Question: font size depending on the screen width, o
 .byline {
   font-weight: 700;
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   color: gray;
   line-height: 1.9em;
   margin-bottom: 0.5em;
@@ -208,7 +186,7 @@ to implement in the future. Question: font size depending on the screen width, o
   position: absolute;
   font-weight: 400;
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   color: gray;
   line-height: 1.9em;
   margin-bottom: 0.5em;
@@ -218,7 +196,7 @@ to implement in the future. Question: font size depending on the screen width, o
 .footnote {
   font-weight: 200;
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   color: gray;
   line-height: 1.9em;
   margin-bottom: 0.5em;
@@ -228,7 +206,7 @@ to implement in the future. Question: font size depending on the screen width, o
 .quote {
   font-style: italic;
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   color: gray;
   line-height: 1.9em;
   margin-bottom: 0.5em;
@@ -239,7 +217,7 @@ to implement in the future. Question: font size depending on the screen width, o
   font-style: italic;
   font-weight: 700;
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   color: gray;
   line-height: 1.9em;
   margin-bottom: 0.5em;
@@ -248,7 +226,7 @@ to implement in the future. Question: font size depending on the screen width, o
 
 .option {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   color: gray;
   line-height: 1.9em;
   margin-bottom: 0.5em;
@@ -260,16 +238,19 @@ li {
   margin: 0;
   text-align: left;
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   color: gray;
   line-height: 1.9em;
   margin-bottom: 0.5em;
   max-width: 75ch;
 }
+li::before {
+  content: "* ";
+}
 
 .list-title {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(3.3rem, 0.5vw, 5.6rem);
+  font-size: clamp(3.3rem, 10px, 5.6rem);
   font-weight: 400;
   color: gray;
   line-height: 1.6em;
@@ -278,7 +259,7 @@ li {
 
 .date {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   color: gray;
   line-height: 1.9em;
   margin-bottom: 0.5em;
@@ -287,7 +268,7 @@ li {
 
 .link {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   color: gray;
   line-height: 1.9em;
   margin-bottom: 0.5em;
@@ -298,7 +279,7 @@ li {
 
 .button {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   color: gray;
   line-height: 1.9em;
   margin-bottom: 0.5em;
@@ -307,7 +288,7 @@ li {
 
 h1 {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(4rem, 0.5vw, 6.25rem);
+  font-size: clamp(4rem, 10px, 6.25rem);
   font-weight: 700;
   color: gray;
   line-height: 1.2em;
@@ -316,7 +297,7 @@ h1 {
 
 h2 {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(4rem, 0.5vw, 6.25rem);
+  font-size: clamp(4rem, 10px, 6.25rem);
   font-weight: 400;
   color: gray;
   line-height: 1.2em;
@@ -325,7 +306,7 @@ h2 {
 
 h3 {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(3.3rem, 0.5vw, 5.6rem);
+  font-size: clamp(3.3rem, 10px, 5.6rem);
   font-weight: 400;
   color: gray;
   line-height: 1.6em;
@@ -334,7 +315,7 @@ h3 {
 
 h4 {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   font-weight: 700;
   color: gray;
   line-height: 1.6em;
@@ -343,7 +324,7 @@ h4 {
 
 h5 {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   font-weight: 700;
   color: gray;
   line-height: 1.6em;
@@ -352,7 +333,7 @@ h5 {
 
 p {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   color: gray;
   line-height: 1.9em;
   margin-bottom: 0.5em;
@@ -360,18 +341,13 @@ p {
 }
 
 a {
-  font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
-  color: gray;
-  line-height: 1.9em;
-  margin-bottom: 0.5em;
-  max-width: 75ch;
+  /* @include p; */
   text-decoration: none;
 }
 
 label {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   font-weight: 400;
   color: gray;
   line-height: 1.6em;
@@ -381,7 +357,7 @@ label {
 
 select {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   font-weight: 400;
   color: gray;
   line-height: 1.6em;
@@ -391,7 +367,7 @@ select {
 
 textarea {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   font-weight: 400;
   color: gray;
   line-height: 1.6em;
@@ -401,7 +377,7 @@ textarea {
 
 figcaption {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   font-weight: 400;
   color: gray;
   line-height: 1.6em;
@@ -411,7 +387,7 @@ figcaption {
 
 li {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   font-weight: 400;
   color: gray;
   line-height: 1.6em;
@@ -421,7 +397,7 @@ li {
 
 option {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   font-weight: 400;
   color: gray;
   line-height: 1.6em;
@@ -746,7 +722,7 @@ sup {
   aspect-ratio: $square; */
   border-radius: 5px;
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   color: gray;
   line-height: 1.9em;
   margin-bottom: 0.5em;
@@ -781,14 +757,14 @@ sup {
   padding: 1vh 1vw;
 }
 .card__title {
-  font-size: clamp(2.6rem, 0.5vw, 5rem);
+  font-size: clamp(2.6rem, 10px, 5rem);
   font-weight: 700;
   color: gray;
   margin: 0.5em auto;
   text-align: center;
 }
 .card__text {
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   color: gray;
   margin: 1em 0;
 }
@@ -826,13 +802,13 @@ sup {
   margin: 1em 0;
 }
 .employeecard__name {
-  font-size: clamp(2.6rem, 0.5vw, 5rem);
+  font-size: clamp(2.6rem, 10px, 5rem);
   font-weight: 700;
   color: gray;
   text-align: center;
 }
 .employeecard__position {
-  font-size: clamp(1.5rem, 0.5vw, 1.8rem);
+  font-size: clamp(1.5rem, 10px, 1.8rem);
   color: #b3e6e6;
   text-align: center;
   margin-bottom: 2em;
@@ -840,7 +816,7 @@ sup {
 .employeecard__phone {
   color: gray;
   margin: 0.5em 0;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   text-align: left;
 }
 .employeecard__phone:before {
@@ -851,7 +827,7 @@ sup {
 }
 .employeecard__mail {
   color: gray;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   text-align: center;
 }
 .employeecard__mail:before {
@@ -872,7 +848,7 @@ sup {
   padding: 1.5vh 0;
 }
 .productcard__name {
-  font-size: clamp(2.6rem, 0.5vw, 5rem);
+  font-size: clamp(2.6rem, 10px, 5rem);
   color: gray;
   font-weight: 700;
 }
@@ -896,12 +872,12 @@ sup {
   background-color: gray;
 }
 .productcard__title {
-  font-size: clamp(2.6rem, 0.5vw, 5rem);
+  font-size: clamp(2.6rem, 10px, 5rem);
   font-weight: 700;
   color: gray;
 }
 .productcard__price {
-  font-size: clamp(2.6rem, 0.5vw, 5rem);
+  font-size: clamp(2.6rem, 10px, 5rem);
   font-weight: 700;
   color: gray;
 }
@@ -917,7 +893,7 @@ sup {
   justify-content: space-around;
 }
 .productcard__size {
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   color: gray;
   padding: 1em;
   border-radius: 10px;
@@ -929,7 +905,7 @@ sup {
 }
 .productcard__order {
   color: gray;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   background-color: gray;
   border-radius: 20px;
   padding: 0.5em 1em;
@@ -1112,7 +1088,7 @@ label {
 .search__input {
   color: gray;
   padding: 0.5em 1em;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
 }
 .search__icon {
   height: 20px;
@@ -1122,7 +1098,7 @@ label {
 .search__btn {
   color: gray;
   background-color: gray;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   width: 5em;
   height: 4em;
 }
@@ -1571,13 +1547,13 @@ label {
 }
 .modal__title {
   color: gray;
-  font-size: clamp(2.6rem, 0.5vw, 5rem);
+  font-size: clamp(2.6rem, 10px, 5rem);
   margin: 1em 0;
   font-weight: 700;
 }
 .modal__text {
   color: gray;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   margin: 1em 0;
   text-align: center;
 }
@@ -1592,7 +1568,7 @@ label {
   border-radius: 5px;
   transition: 300ms;
   color: gray;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   margin: 0.5em 1em 1.5em;
   display: block;
 }
@@ -1838,6 +1814,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   inset: 0 0 auto 0; */
   padding: 2.5vh 5vw;
   background-color: #53acac;
+  max-width: 100vw;
 }
 .header__up {
   display: flex;
@@ -1846,28 +1823,26 @@ input[type=date]::-webkit-calendar-picker-indicator {
 }
 
 .main {
-  margin: 0 0 40vh 0;
+  margin: 0 0 10vh 0;
   padding: 0 5vw;
-  width: 100vw;
+  max-width: 100vw;
 }
 
-/* 
-h4{
-    font-size: 60px;
-    color: magenta;
-  } */
 .footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2.5vh 5vw;
   background-color: #53acac;
+  position: fixed;
+  inset: auto 0 0 0;
+  /* max-width: 100vw; */
 }
 .footer__navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
+  /* width: 100%; */
   padding: 0 10vw;
 }
 
@@ -1888,6 +1863,26 @@ section {
   flex-direction: column;
 }
 
+/* body{
+    background-color:aquamarine;
+    max-width: 100vw;
+} */
+/* :root{
+    background-color: goldenrod;
+    max-width: 100vw;
+    height: 100vh;
+}
+ */
+/* .App{
+    background-color: rgb(233, 200, 206);
+    max-width: 100vw;
+    height: 100vh;
+} */
+/* html{
+    background-color:darkslategrey;
+    max-width: 100vw;
+    height: 100vh;
+} */
 .test {
   background-color: red;
   width: 300px;
@@ -1941,6 +1936,9 @@ section {
 .about-me__img {
   display: block;
   margin: 5vh auto;
+}
+.about-me__body {
+  margin: 3vh 0;
 }
 
 .subsection {
