@@ -22,7 +22,7 @@ export const Components = () => {
     <div className="components">
       <div className="components__sidebar">
         <h2 className='components__sidebar-title'>Components</h2>
-
+        <a href="" className='link'>LINK TEST</a>
         <menu className="components__sidebar-list">
           <>
             {componentList.map((component) => (
@@ -31,7 +31,7 @@ export const Components = () => {
                   onClick={() =>
                     setActiveComponent(componentList.indexOf(component))
                   }
-                >
+                className="components__sidebar-singleComponent" >
                   {`< ${component.name} />`}
                 </p>
               </>
@@ -52,7 +52,7 @@ export const Components = () => {
         <h2 className='components__main-displayTitle'>{`<${componentName} />`}</h2>
         <p>{componentImage}</p>
         <Renderer component={componentName} />
-        <CodeRenderer activeComponent={componentList[activeComponent]} />
+        {/* <CodeRenderer activeComponent={componentList[activeComponent]} /> */}
 
         {componentExposition && <p>{componentExposition}</p>}
         {componentPropsList &&

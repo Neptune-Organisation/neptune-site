@@ -288,6 +288,7 @@ li::before {
   letter-spacing: 0.05em;
   text-decoration: none;
   background-color: transparent;
+  color: #53acac;
 }
 
 .header-link {
@@ -750,6 +751,7 @@ sup {
   transition: 300ms;
   width: clamp(160px, 2vw, 200px);
   padding: 0.25em 0.5em;
+  background-color: #c7d1d1;
   /* margin: 1em 0; */
   /* width: $containerBig;
   aspect-ratio: $square; */
@@ -1965,6 +1967,9 @@ section {
   overflow: scroll;
   height: 20vh;
 }
+.components__sidebar-singleComponent:hover {
+  color: #2dd2d2;
+}
 .components__main-display {
   width: 60vw;
   display: flex;
@@ -2030,28 +2035,34 @@ section {
   margin: 1.5em 0;
 }
 
-.btn :hover {
+.btn {
+  transition: 300ms;
+}
+.btn:hover {
   color: white;
   background-color: gray;
 }
-.btn :active {
+.btn:active {
   color: white;
   background-color: #506262;
 }
-.btn :focus {
+.btn:focus {
   color: white;
   background-color: #171c1c;
 }
 
-a :hover {
-  color: white;
-  background-color: gray;
+a {
+  transition: 300ms;
 }
-a :active {
+a:hover {
+  color: white;
+  background-color: #53acac;
+}
+a:active {
   color: white;
   background-color: #506262;
 }
-a :focus {
+a:focus {
   color: white;
   background-color: #171c1c;
 }
