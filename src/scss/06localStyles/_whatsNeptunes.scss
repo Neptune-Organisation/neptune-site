@@ -2,6 +2,13 @@
 
 .subsection{
     margin: 1.5vh 0;
+    padding: 0 15vw 2vh;
     padding-bottom: 2vh;
     border-bottom: 3px solid $primaryColLight;
+    
+    &__last{
+        margin: 1.5vh 0;
+        padding: 0 15vw 2vh;
+        padding-bottom: 2vh;
+    }
 }

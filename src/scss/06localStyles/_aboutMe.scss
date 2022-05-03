@@ -1,5 +1,6 @@
 @use "../01subAtoms/subAtoms" as *;
 .about-me {
+  
   &__img {
     display: block;
     margin: 2.5vh auto;
@@ -10,5 +11,11 @@
     padding-bottom: 1.5em;
     border-bottom: 3px solid $primaryColLight;
     margin: 1.5em 0;
+  }
+
+  &__last-paragraph{
+    margin-bottom: 3em;
+    text-align: center;
+    font-weight: 700;
   }
 }

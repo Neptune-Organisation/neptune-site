@@ -1,4 +1,4 @@
-@use "../01subAtoms/subAtoms" as *;
+@use '../01subAtoms/subAtoms' as *;
 
 .header {
   /* position: fixed;
@@ -8,13 +8,27 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  
-  &__up{
+
+  &__up {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 80%;
-
   }
-}
 
+  &__navbar--hidden {
+    display: none;
+  }
+
+  &__navbar--show {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    inset: 5vh 3vw auto auto;
+    background-color: $primaryColDark;
+  }
+  /* &__navbar--horizontal{
+    display: flex;
+    justify-content: space-between;
+  } */
+}

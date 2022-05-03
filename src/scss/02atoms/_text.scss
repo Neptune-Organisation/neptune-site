@@ -22,6 +22,8 @@
 
 .headline {
   @include h4;
+  text-align: center;
+  margin: 1.5em 2.5em;
 }
 
 .group-title {
@@ -101,6 +103,12 @@ li {
   background-color: transparent;
 }
 
+.header-link {
+  @include p;
+  color: white;
+  margin: 1em;
+}
+
 .button {
   @include p;
 }
@@ -130,7 +138,7 @@ p {
 }
 
 a{
-  /* @include p; */
+  @include p;
   text-decoration: none;
 }
 
