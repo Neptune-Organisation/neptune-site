@@ -1,6 +1,5 @@
 import { PageTitle, Image, Body, Link } from 'neptunes-components';
 import data from '../../data/aboutMe.json';
-console.log(data);
 export const AboutMe = () => {
   return (
     <section className="about-me">

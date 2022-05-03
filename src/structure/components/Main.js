@@ -15,6 +15,7 @@ export const Main = () => {
   return (
     <div className="main">
       <Routes>
+        
         <Route exact path="/" element={<LandingPage />} />
         <Route path="/aboutneptune" element={<WhatsNeptune />} />
         <Route path="/installation" element={<Installation />} />
