@@ -1,6 +1,7 @@
-import { PageTitle } from 'neptunes-components';
+import { Body, Headline, PageTitle, SectionTitle, SubHeadline } from 'neptunes-components';
 export const WhatsNeptune = () => {
   return (
+    <>
     <section>
       <PageTitle pageTitle="What's Neptune" />
       <div className="subsection">
@@ -59,5 +60,20 @@ export const WhatsNeptune = () => {
       </p>
       </div>
     </section>
+    <section>
+      <SectionTitle sectionTitle = "The Idea" />
+      <Headline headline = "Primary goal" />
+      <SubHeadline subHeadline = "Let's make web dev more human friendly." />
+      <Body body = "Even with such descriptive languages like HTML and CSS there's still a lvl of abstraction. What's an <h1>? An <h1> could be anything.  But something like <SectionTitle /> it's more clear, if not perfectly defined.  I feel that the `abstraction level`of sintactic HTML can still create a gap in the developement and lead sometimes to missunderstandings and inconsistency thruh the whole application." />
+      <Headline headline = "Secondary Objectives" />
+      <Body body = "A Web Dev Environment focused on UI/UX components, which comprehends a react library, an scss library and a toolset." />
+      <Body body ="Both libraries are easy to configure, maintain and scale." />
+      <Body body ="Easier communication between Design, Back-end and Front-end departments." />
+    </section>
+    <section>
+      <SectionTitle sectionTitle = "Who is behind Neptune?" />
+      <p>Neptune is a one-band operation. My name is Albert Löwe, former orchestra conductor in love with code. <a href="/aboutme" className='link'>Discover more about me</a> </p>
+    </section>
+    </>
   );
 };

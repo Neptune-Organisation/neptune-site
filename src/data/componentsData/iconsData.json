@@ -2,15 +2,15 @@
   "iconList": [
     {
         "icon" : "email",
-        "className" : "iconBig"
+        "iconClass" : "iconBig"
     },  
     {
         "icon" : "whatsapp",
-        "className" : ""
+        "iconClass" : "iconBig"
     },  
     {
         "icon" : "neptune",
-        "className" : ""
+        "iconClass" : "iconBig"
     }
 ],
   "iconsContainerClass": "",

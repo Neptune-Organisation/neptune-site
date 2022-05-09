@@ -22,7 +22,6 @@ export const Components = () => {
     <div className="components">
       <div className="components__sidebar">
         <h2 className='components__sidebar-title'>Components</h2>
-        <a href="" className='link'>LINK TEST</a>
         <menu className="components__sidebar-list">
           <>
             {componentList.map((component) => (

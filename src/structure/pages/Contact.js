@@ -26,17 +26,41 @@ export const Contact = () => {
         <p className="contact__content-p">Let's connect in</p>
         <ul>
           <li>
-            <a href="https://github.com/AlbertLeipzig" className='contact__link'>Github</a>
+            <a
+              href="https://github.com/AlbertLeipzig"
+              className="contact__link"
+            >
+              Github
+            </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/albert-clemente/">Linkedin</a>
+            <a
+              href="https://www.linkedin.com/in/albert-clemente/"
+              className="contact__link"
+            >
+              Linkedin
+            </a>
           </li>
           <li>
-            <a href="https://github.com/AlbertLeipzig">Twitter</a>
+            <a
+              href="https://github.com/AlbertLeipzig"
+              className="contact__link"
+            >
+              Twitter
+            </a>
           </li>
           <p>
             where I love to share about programing and programing related
-            content
+            content, or write me an email to{' '}
+            <span>
+              <a
+                href="mailto:albertclem@protonmail.com"
+                target="__blank"
+                className="contact__link"
+              >
+                albertclem@protonmail.com
+              </a>
+            </span>
           </p>
         </ul>
       </div>

@@ -1,9 +1,10 @@
+@use "../01subAtoms/subAtoms" as *;
 .contact{
-    &__{
+    &__link{
 
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+        margin: 1.25em 0;
+        width: fit-content;
+        color: $primaryColDark;
     }
     /* 
     &__li{

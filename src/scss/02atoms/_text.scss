@@ -23,6 +23,7 @@
 .headline {
   @include h4;
   text-align: center;
+  color: $primaryColMuted;
   margin: 1.5em 2.5em;
 }
 

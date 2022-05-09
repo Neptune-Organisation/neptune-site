@@ -42,7 +42,7 @@ import {
 } from 'neptunes-components';
 
 const Data = componentData;
-const singleIcon = Data.iconsData.iconList[0];
+const singleIcon = Data.iconsData.iconList[2];
 export const Renderer = (props) => {
   const component = props.component;
 
@@ -159,15 +159,14 @@ export const Renderer = (props) => {
         />
       )}
       {component === 'Icon' && (
-        <Icons icon={singleIcon.icon} iconClass={singleIcon.className} />
+        <Icon icon={singleIcon.icon} iconClass={singleIcon.iconClass} />
       )}
-      {component === 'IconGroup' && (
+     {/*  {component === 'IconGroup' && (
         <IconGroup
-          iconsContainerClass={Data.iconsData.iconsContainerClass}
-          iconClass={Data.iconsData.iconClass}
+          groupClass={Data.iconsData.iconsContainerClass}
           iconList={Data.iconsData.iconList}
         />
-      )}
+      )} */}
 
       {component === 'MediaPlayerGroup' && (
         <MediaPlayerGroup

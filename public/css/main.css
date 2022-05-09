@@ -124,6 +124,7 @@ template {
   line-height: 1.6em;
   margin-bottom: 0.5em;
   text-align: center;
+  color: #53acac;
   margin: 1.5em 2.5em;
 }
 
@@ -2135,10 +2136,10 @@ section {
         padding: 0;
     } */
 }
-.contact__ {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+.contact__link {
+  margin: 1.25em 0;
+  width: fit-content;
+  color: #2d8686;
 }
 
 .btn {
@@ -2287,7 +2288,7 @@ a:focus {
 
   .about-me {
     display: block;
-    margin: 0 15vw 15vh;
+    margin: 0 15vw;
   }
 
   .footer {
@@ -2302,6 +2303,17 @@ a:focus {
   .contact__content-p {
     line-height: 2.5em;
     letter-spacing: 0.075em;
+  }
+
+  .headline {
+    text-align: left;
+    margin: 1.5em 0;
+  }
+
+  .section-title {
+    text-align: center;
+    margin: 1.5em 0 1em 0;
+    padding: 1em 0;
   }
 }
 @media screen and (min-width: 834px) {
