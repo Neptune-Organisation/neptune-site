@@ -2081,6 +2081,21 @@ section {
   margin: 1.5em 0;
 }
 
+.ussage {
+  display: flex;
+  justify-content: space-between;
+}
+.ussage__aside {
+  display: none;
+  position: sticky;
+  inset: 5vh 0 0 2vw;
+  min-width: fit-content;
+  height: fit-content;
+}
+.ussage__content {
+  flex-grow: 4;
+  padding: 0 10vw;
+}
 .ussage__section {
   margin: 8vh 0;
 }
@@ -2270,6 +2285,10 @@ a:focus {
 @media screen and (min-width: 800px) {
   .contact-field__label {
     max-width: 500px;
+  }
+
+  .ussage__aside {
+    display: block;
   }
 
   .components {

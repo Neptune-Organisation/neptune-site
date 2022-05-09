@@ -5,6 +5,12 @@
     }
   }
 
+
+  .ussage{
+    &__aside{
+      display: block;
+    }
+  }
   .components {
     display: flex;
     flex-direction: row;
