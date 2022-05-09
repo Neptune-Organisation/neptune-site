@@ -3,7 +3,7 @@ export const LandingPage = () => {
   return (
     <div className="landing-page">
       <PageTitle pageTitle = "Neptune" />
-      <Headline headline = "Tools to develope your front-end application faster and easier" />
+      <Headline headline = "Tools to develope your front-end application faster and easier" headlineClass= "landing-page__headline" />
       <section>
         <>
           <p className="landing-page__paragraph">

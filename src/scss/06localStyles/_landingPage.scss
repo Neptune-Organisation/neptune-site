@@ -1,8 +1,16 @@
 @use "../01subAtoms/subAtoms" as *;
+@use "../02atoms/atoms" as *;
 .landing-page{
     &__paragraph{
         padding-bottom: 1.5em;
         border-bottom: 3px solid $primaryColLight;
         margin: 1.5em 0;
+    }
+
+    &__headline{
+        @include h4;
+  text-align: center;
+  color: $primaryColMuted;
+  margin: 1.5em 2.5em;
     }
 }
