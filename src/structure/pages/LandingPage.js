@@ -6,15 +6,15 @@ export const LandingPage = () => {
       <Headline headline = "Tools to develope your front-end application faster and easier" />
       <section>
         <>
-          <p>
+          <p className="landing-page__paragraph">
             UI Component Libraries <span></span>
           </p>
         </>
         <>
-          <p>Preserve function sepparation by avoiding in-line style.</p>
+          <p className="landing-page__paragraph">Preserve function sepparation by avoiding in-line style.</p>
         </>
         <>
-          <p>
+          <p className="landing-page__paragraph">
             Make Web Dev more human-friendly and keep always a meaning attached
             to all your code: components are named using UI terminology
           </p>

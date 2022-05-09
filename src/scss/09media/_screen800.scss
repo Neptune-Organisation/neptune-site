@@ -5,12 +5,38 @@
     }
   }
 
-  .components{
+  .components {
     display: flex;
     flex-direction: row;
+    align-items: initial;
+    /* 
+    &__sidebar{
+      position: fixed;
+      inset: 10vh 0 auto 3vw;
+    } */
 
-    &__sidebar-list{
+    &__sidebar-list {
       height: 60vh;
+    }
+  }
+
+  .about-me {
+    display: block;
+    margin: 0 15vw 15vh;
+  }
+  .footer {
+    position: fixed;
+    inset: auto 0 0 0;
+  }
+  .contact {
+    &__content {
+      display: block;
+      margin: 5vh 20vw 15vh;
+    }
+
+    &__content-p {
+      line-height: 2.5em;
+      letter-spacing: 0.075em;
     }
   }
 }

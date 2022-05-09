@@ -5,7 +5,7 @@
       "name": "ArticleTitle",
       "category": "Text Components",
       "componentImage": "",
-      "reactCodeImage": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmVhY3R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "reactCodeImage": "https://i.pinimg.com/564x/9b/36/da/9b36da148d37a717bc73cb8c54c15cbe.jpg",
       "scssCodeImage": "https://images.unsplash.com/photo-1517134191118-9d595e4c8c2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2Nzc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
       "propsList": [{ "name": "" }, { "required": "" }],
       "exposition": ""
@@ -15,7 +15,7 @@
       "name": "Blockquote",
       "category": "Text Components",
       "componentImage": "",
-      "reactCodeImage": "",
+      "reactCodeImage": "https://i.pinimg.com/564x/21/ed/f2/21edf2d136272064ed10bdb321ebcf79.jpg",
       "scssCodeImage": "",
       "propsList": [{ "name": "" }, { "required": "" }],
       "exposition": ""
@@ -24,7 +24,7 @@
       "name": "Body",
       "category": "Text Components",
       "componentImage": "",
-      "reactCodeImage": "",
+      "reactCodeImage": "https://i.pinimg.com/564x/e4/51/a7/e451a732c509f01fb63f1654ad5d70f7.jpg",
       "scssCodeImage": "",
       "propsList": [{ "name": "" }, { "required": "" }],
       "exposition": ""
@@ -32,8 +32,8 @@
     {
       "name": "Button",
       "category": "Basic Components",
-      "componentImage": "it's not an image, but the very component, rendered in the browser",
-      "reactCodeImage": [],
+      "componentImage": "",
+      "reactCodeImage": "https://i.pinimg.com/564x/50/5c/b7/505cb75f9a5161feb62726189ae3ec91.jpg",
       "scssCodeImage": "",
       "propsList": [{ "name": "" }, { "required": "" }],
       "exposition": ""
@@ -42,7 +42,7 @@
       "name": "ButtonGroup",
       "category": "Group Components",
       "componentImage": "",
-      "reactCodeImage": "",
+      "reactCodeImage": "https://i.pinimg.com/564x/cd/db/24/cddb24b7f27b35e8dcdf8a22fa310ad3.jpg",
       "scssCodeImage": "",
       "propsList": [{ "name": "" }, { "required": "" }],
       "exposition": ""
@@ -51,7 +51,7 @@
       "name": "Byline",
       "category": "Text Components",
       "componentImage": "",
-      "reactCodeImage": "",
+      "reactCodeImage": "https://i.pinimg.com/564x/a8/6d/a8/a86da832e61922030da63dd76d54006e.jpg",
       "scssCodeImage": "",
       "propsList": [{ "name": "" }, { "required": "" }],
       "exposition": ""
@@ -60,7 +60,7 @@
       "name": "Card",
       "category": "Basic Components",
       "componentImage": "",
-      "reactCodeImage": "",
+      "reactCodeImage": "https://i.pinimg.com/564x/96/94/c5/9694c5bd2b6bb52a32272ed334327329.jpg",
       "scssCodeImage": "",
       "propsList": [{ "name": "" }, { "required": "" }],
       "exposition": ""
@@ -69,7 +69,7 @@
       "name": "CardGroup",
       "category": "Group Components",
       "componentImage": "",
-      "reactCodeImage": "",
+      "reactCodeImage": "https://i.pinimg.com/564x/a0/c2/35/a0c2350e408815e62859c40f2c7387ac.jpg",
       "scssCodeImage": "",
       "propsList": [{ "name": "" }, { "required": "" }],
       "exposition": ""
@@ -78,7 +78,7 @@
       "name": "DropdownMenu",
       "category": "Group Components",
       "componentImage": "",
-      "reactCodeImage": "",
+      "reactCodeImage": "https://i.pinimg.com/564x/0f/ed/6b/0fed6b393b8d6ee18cd0f13551fed950.jpg",
       "scssCodeImage": "",
       "propsList": [{ "name": "" }, { "required": "" }],
       "exposition": ""
@@ -87,7 +87,7 @@
       "name": "Form",
       "category": "Basic Components",
       "componentImage": "",
-      "reactCodeImage": "",
+      "reactCodeImage": "https://i.pinimg.com/564x/03/6e/02/036e028a8d66e4de95c86b9df3296046.jpg",
       "scssCodeImage": "",
       "propsList": [{ "name": "" }, { "required": "" }],
       "exposition": ""
@@ -96,7 +96,7 @@
       "name": "Footnote",
       "category": "Text Components",
       "componentImage": "",
-      "reactCodeImage": "",
+      "reactCodeImage": "https://i.pinimg.com/564x/6b/1b/cc/6b1bcc4d7d07085bb9cfd2cb4d0703cc.jpg",
       "scssCodeImage": "",
       "propsList": [{ "name": "" }, { "required": "" }],
       "exposition": ""
@@ -105,7 +105,7 @@
       "name": "GroupTitle",
       "category": "Text Components",
       "componentImage": "",
-      "reactCodeImage": "",
+      "reactCodeImage": "https://i.pinimg.com/564x/7a/b3/9d/7ab39db83bef9c8b00cb0ba8e000b605.jpg",
       "scssCodeImage": "",
       "propsList": [{ "name": "" }, { "required": "" }],
       "exposition": ""
@@ -114,7 +114,7 @@
       "name": "Headline",
       "category": "Text Components",
       "componentImage": "",
-      "reactCodeImage": "",
+      "reactCodeImage": "https://i.pinimg.com/564x/2d/53/3a/2d533a85fae16d267957df1d96b3a86a.jpg",
       "scssCodeImage": "",
       "propsList": [{ "name": "" }, { "required": "" }],
       "exposition": ""
@@ -132,7 +132,7 @@
       "name": "HeroTitle",
       "category": "Text Components",
       "componentImage": "",
-      "reactCodeImage": "",
+      "reactCodeImage": "https://i.pinimg.com/564x/71/a4/6a/71a46a9c6b4f669137514674dd0afdd2.jpg",
       "scssCodeImage": "",
       "propsList": [{ "name": "" }, { "required": "" }],
       "exposition": ""
@@ -141,7 +141,7 @@
       "name": "Icon",
       "category": "Media Components",
       "componentImage": "",
-      "reactCodeImage": "",
+      "reactCodeImage": "https://i.pinimg.com/564x/71/a4/6a/71a46a9c6b4f669137514674dd0afdd2.jpg",
       "scssCodeImage": "",
       "propsList": [{ "name": "" }, { "required": "" }],
       "exposition": ""
@@ -159,7 +159,7 @@
       "name": "Image",
       "category": "Media Components",
       "componentImage": "",
-      "reactCodeImage": "",
+      "reactCodeImage": "https://i.pinimg.com/564x/bd/e5/b2/bde5b2024024d1106092222676a6b421.jpg",
       "scssCodeImage": "",
       "propsList": [{ "name": "" }, { "required": "" }],
       "exposition": ""
@@ -168,7 +168,7 @@
       "name": "ImageGroup",
       "category": "Group Components",
       "componentImage": "",
-      "reactCodeImage": "",
+      "reactCodeImage": "https://i.pinimg.com/564x/8e/ab/a9/8eaba9571f53b1b95ca4ebdeafbca886.jpg",
       "scssCodeImage": "",
       "propsList": [{ "name": "" }, { "required": "" }],
       "exposition": ""
@@ -177,7 +177,7 @@
       "name": "Link",
       "category": "Text Components",
       "componentImage": "",
-      "reactCodeImage": "",
+      "reactCodeImage": "https://i.pinimg.com/564x/1e/86/51/1e865196ac5c9ee5014a0aa831188c5b.jpg",
       "scssCodeImage": "",
       "propsList": [{ "name": "" }, { "required": "" }],
       "exposition": ""
@@ -186,7 +186,7 @@
       "name": "List",
       "category": "Text Components",
       "componentImage": "",
-      "reactCodeImage": "",
+      "reactCodeImage": "https://i.pinimg.com/564x/9d/7b/48/9d7b48d61bb14ac2a6150224f9d63706.jpg",
       "scssCodeImage": "",
       "propsList": [{ "name": "" }, { "required": "" }],
       "exposition": ""
@@ -195,7 +195,7 @@
       "name": "MediaPlayer",
       "category": "Media Components",
       "componentImage": "",
-      "reactCodeImage": "",
+      "reactCodeImage": "https://i.pinimg.com/564x/29/85/ca/2985ca662937b990bd38f131053fd492.jpg",
       "scssCodeImage": "",
       "propsList": [{ "name": "" }, { "required": "" }],
       "exposition": ""
@@ -222,7 +222,7 @@
       "name": "Picker",
       "category": "Interaction Components",
       "componentImage": "",
-      "reactCodeImage": "",
+      "reactCodeImage": "https://i.pinimg.com/564x/08/ff/df/08ffdffbe17c36f91309deee484dfb7f.jpg",
       "scssCodeImage": "",
       "propsList": [{ "name": "" }, { "required": "" }],
       "exposition": ""
@@ -231,7 +231,7 @@
       "name": "SectionTitle",
       "category": "Text Components",
       "componentImage": "",
-      "reactCodeImage": "",
+      "reactCodeImage": "https://i.pinimg.com/564x/b5/49/54/b549548779483c463de44cb4a9b508ab.jpg",
       "scssCodeImage": "",
       "propsList": [{ "name": "" }, { "required": "" }],
       "exposition": ""
@@ -240,7 +240,7 @@
       "name": "SelectOption",
       "category": "Text Components",
       "componentImage": "",
-      "reactCodeImage": "",
+      "reactCodeImage": "https://i.pinimg.com/236x/00/89/b6/0089b64b28c2b8e12042ee9b072ab246.jpg",
       "scssCodeImage": "",
       "propsList": [{ "name": "" }, { "required": "" }],
       "exposition": ""
@@ -249,7 +249,7 @@
       "name": "SubHeadline",
       "category": "Text Components",
       "componentImage": "",
-      "reactCodeImage": "",
+      "reactCodeImage": "https://i.pinimg.com/564x/5b/bd/41/5bbd412c475694448de5b5a8aabc3a9f.jpg",
       "scssCodeImage": "",
       "propsList": [{ "name": "" }, { "required": "" }],
       "exposition": ""

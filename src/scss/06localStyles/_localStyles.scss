@@ -1,5 +1,8 @@
 @use '../08layouts/divLayouts/divLayouts' as *;
 @forward './test';
 @use './components';
-@use "./abouMe";
-@use "./whatsNeptunes"
+@use "./aboutMe";
+@use "./whatsNeptunes";
+@use "./landingPage";
+@use "./ussage";
+@use "./contact";

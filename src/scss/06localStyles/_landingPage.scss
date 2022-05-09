@@ -1,0 +1,8 @@
+@use "../01subAtoms/subAtoms" as *;
+.landing-page{
+    &__paragraph{
+        padding-bottom: 1.5em;
+        border-bottom: 3px solid $primaryColLight;
+        margin: 1.5em 0;
+    }
+}

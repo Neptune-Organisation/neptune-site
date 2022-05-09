@@ -1,6 +1,6 @@
 /* @use "typography" as *; */
+@use "../01subAtoms/subAtoms" as *;
 @use "../02atoms/typography" as *;
-@use "../01subAtoms/subatoms" as *;
 
 .page-title {
   @include h1;
@@ -22,6 +22,8 @@
 
 .headline {
   @include h4;
+  text-align: center;
+  margin: 1.5em 2.5em;
 }
 
 .group-title {
@@ -35,12 +37,6 @@
 .body {
   font-weight: 400;
   @include p;
-}
-
-.code {
-  @include p;
-  font-family: $codeFont;
-  color: $primaryColMuted;
 }
 
 .clossure{
@@ -83,10 +79,12 @@
   @include p;
 }
 
+
 li {
   padding: 0;
   margin: 0;
   text-align: left;
+
   @include p;
 }
 
@@ -102,6 +100,13 @@ li {
   @include p;
   text-decoration: none;
   background-color: transparent;
+  color: $primaryColMuted;
+}
+
+.header-link {
+  @include p;
+  color: white;
+  margin: 1em;
 }
 
 .button {
@@ -153,6 +158,10 @@ figcaption {
   @include label-style;
 }
 
+ul{
+  padding: 0;
+}
+
 li {
   @include label-style;
 }
@@ -174,6 +183,18 @@ code {
   @include code-style;
 }
 
+.code{
+  @include p;
+  color: $primaryColLight;
+  font-family: monospace, monospace;
+  background-color: $grey1;
+  padding: 0 1em;
+  &::selection{
+    color: $primaryColMuted;
+    background-color: $grey3;
+  }
+}
+
 kbd {
   @include code-style;
 }
@@ -193,5 +214,20 @@ sup {
 }
 
 *::selection {
-  color: $compCol;
+  color: $primaryColLight;
+}
+
+
+th{
+  @include p;
+  font-weight: 700;
+  color: $primaryColDark;
+  text-align: left;
+  padding-bottom: 1.5em;
+  padding: 0 2em;
+}
+
+td{
+  @include p;
+  padding: 1em 2em;
 }

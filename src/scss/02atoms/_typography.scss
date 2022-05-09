@@ -1,4 +1,5 @@
-@use "../01subAtoms/subatoms" as *;
+@use "../01subAtoms/subAtoms" as *;
+
 
 @mixin h1 {
   font-family: $mainFont;
@@ -49,9 +50,10 @@
   font-family: $mainFont;
   font-size: $f3;
   color: $primaryCol;
-  line-height: 1.9em;
+  line-height: 2.1em;
   margin-bottom: 0.5em;
   max-width: 75ch;
+  letter-spacing: .05em;
 }
 
 

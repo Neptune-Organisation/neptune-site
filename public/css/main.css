@@ -53,17 +53,6 @@ template {
 /* saturation */
 /* brightness */
 /* $secondFont : 'Roboto Slab', serif; */
-/* @use "./root-fontSize";
-
-@function fontSize ($fs) {
-    @return $fs * 4 / 3
-}
-
-to implement in the future. Question: font size depending on the screen width, or on the :root value?
- */
-/* paragraph + h3 */
-/* h2 */
-/* h1 */
 /* SIZE */
 /* ASPECT RATIO */
 /* CONTENT */
@@ -75,8 +64,8 @@ to implement in the future. Question: font size depending on the screen width, o
 }
 
 .iconMed {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
 }
 
 .iconBig {
@@ -91,7 +80,7 @@ to implement in the future. Question: font size depending on the screen width, o
 /* @use "typography" as *; */
 .page-title {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(4rem, 0.5vw, 6.25rem);
+  font-size: clamp(3.3rem, 10px, 6.25rem);
   font-weight: 700;
   color: gray;
   line-height: 1.2em;
@@ -102,7 +91,7 @@ to implement in the future. Question: font size depending on the screen width, o
 .hero__title {
   text-align: center;
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(4rem, 0.5vw, 6.25rem);
+  font-size: clamp(3.3rem, 10px, 6.25rem);
   font-weight: 700;
   color: gray;
   line-height: 1.2em;
@@ -111,7 +100,7 @@ to implement in the future. Question: font size depending on the screen width, o
 
 .article-title {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(4rem, 0.5vw, 6.25rem);
+  font-size: clamp(3.3rem, 10px, 6.25rem);
   font-weight: 400;
   color: gray;
   line-height: 1.2em;
@@ -120,7 +109,7 @@ to implement in the future. Question: font size depending on the screen width, o
 
 .section-title {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(3.3rem, 0.5vw, 5.6rem);
+  font-size: clamp(2.7rem, 10px, 5.6rem);
   font-weight: 400;
   color: gray;
   line-height: 1.6em;
@@ -129,16 +118,18 @@ to implement in the future. Question: font size depending on the screen width, o
 
 .headline {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   font-weight: 700;
   color: gray;
   line-height: 1.6em;
   margin-bottom: 0.5em;
+  text-align: center;
+  margin: 1.5em 2.5em;
 }
 
 .group-title {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   font-weight: 700;
   color: gray;
   line-height: 1.6em;
@@ -147,7 +138,7 @@ to implement in the future. Question: font size depending on the screen width, o
 
 .subheadline {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   font-weight: 700;
   color: gray;
   line-height: 1.6em;
@@ -157,27 +148,17 @@ to implement in the future. Question: font size depending on the screen width, o
 .body {
   font-weight: 400;
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   color: gray;
-  line-height: 1.9em;
+  line-height: 2.1em;
   margin-bottom: 0.5em;
   max-width: 75ch;
-}
-
-.code {
-  font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
-  color: gray;
-  line-height: 1.9em;
-  margin-bottom: 0.5em;
-  max-width: 75ch;
-  font-family: "IBM Plex Mono", monospace;
-  color: #53acac;
+  letter-spacing: 0.05em;
 }
 
 .clossure {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(3.3rem, 0.5vw, 5.6rem);
+  font-size: clamp(2.7rem, 10px, 5.6rem);
   font-weight: 400;
   color: gray;
   line-height: 1.6em;
@@ -187,72 +168,79 @@ to implement in the future. Question: font size depending on the screen width, o
 .bold {
   font-weight: 700;
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   color: gray;
-  line-height: 1.9em;
+  line-height: 2.1em;
   margin-bottom: 0.5em;
   max-width: 75ch;
+  letter-spacing: 0.05em;
 }
 
 .byline {
   font-weight: 700;
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   color: gray;
-  line-height: 1.9em;
+  line-height: 2.1em;
   margin-bottom: 0.5em;
   max-width: 75ch;
+  letter-spacing: 0.05em;
 }
 
 .callout {
   position: absolute;
   font-weight: 400;
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   color: gray;
-  line-height: 1.9em;
+  line-height: 2.1em;
   margin-bottom: 0.5em;
   max-width: 75ch;
+  letter-spacing: 0.05em;
 }
 
 .footnote {
   font-weight: 200;
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   color: gray;
-  line-height: 1.9em;
+  line-height: 2.1em;
   margin-bottom: 0.5em;
   max-width: 75ch;
+  letter-spacing: 0.05em;
 }
 
 .quote {
   font-style: italic;
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   color: gray;
-  line-height: 1.9em;
+  line-height: 2.1em;
   margin-bottom: 0.5em;
   max-width: 75ch;
+  letter-spacing: 0.05em;
 }
 
 .blockquote {
   font-style: italic;
   font-weight: 700;
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   color: gray;
-  line-height: 1.9em;
+  line-height: 2.1em;
   margin-bottom: 0.5em;
   max-width: 75ch;
+  letter-spacing: 0.05em;
 }
 
 .option {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   color: gray;
-  line-height: 1.9em;
+  line-height: 2.1em;
   margin-bottom: 0.5em;
   max-width: 75ch;
+  letter-spacing: 0.05em;
 }
 
 li {
@@ -260,16 +248,17 @@ li {
   margin: 0;
   text-align: left;
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   color: gray;
-  line-height: 1.9em;
+  line-height: 2.1em;
   margin-bottom: 0.5em;
   max-width: 75ch;
+  letter-spacing: 0.05em;
 }
 
 .list-title {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(3.3rem, 0.5vw, 5.6rem);
+  font-size: clamp(2.7rem, 10px, 5.6rem);
   font-weight: 400;
   color: gray;
   line-height: 1.6em;
@@ -278,36 +267,52 @@ li {
 
 .date {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   color: gray;
-  line-height: 1.9em;
+  line-height: 2.1em;
   margin-bottom: 0.5em;
   max-width: 75ch;
+  letter-spacing: 0.05em;
 }
 
 .link {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   color: gray;
-  line-height: 1.9em;
+  line-height: 2.1em;
   margin-bottom: 0.5em;
   max-width: 75ch;
+  letter-spacing: 0.05em;
   text-decoration: none;
   background-color: transparent;
+  color: #53acac;
+}
+
+.header-link {
+  font-family: "Advent Pro", sans-serif;
+  font-size: clamp(1.8rem, 10px, 2.1rem);
+  color: gray;
+  line-height: 2.1em;
+  margin-bottom: 0.5em;
+  max-width: 75ch;
+  letter-spacing: 0.05em;
+  color: white;
+  margin: 1em;
 }
 
 .button {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   color: gray;
-  line-height: 1.9em;
+  line-height: 2.1em;
   margin-bottom: 0.5em;
   max-width: 75ch;
+  letter-spacing: 0.05em;
 }
 
 h1 {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(4rem, 0.5vw, 6.25rem);
+  font-size: clamp(3.3rem, 10px, 6.25rem);
   font-weight: 700;
   color: gray;
   line-height: 1.2em;
@@ -316,7 +321,7 @@ h1 {
 
 h2 {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(4rem, 0.5vw, 6.25rem);
+  font-size: clamp(3.3rem, 10px, 6.25rem);
   font-weight: 400;
   color: gray;
   line-height: 1.2em;
@@ -325,7 +330,7 @@ h2 {
 
 h3 {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(3.3rem, 0.5vw, 5.6rem);
+  font-size: clamp(2.7rem, 10px, 5.6rem);
   font-weight: 400;
   color: gray;
   line-height: 1.6em;
@@ -334,7 +339,7 @@ h3 {
 
 h4 {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   font-weight: 700;
   color: gray;
   line-height: 1.6em;
@@ -343,7 +348,7 @@ h4 {
 
 h5 {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   font-weight: 700;
   color: gray;
   line-height: 1.6em;
@@ -352,26 +357,28 @@ h5 {
 
 p {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   color: gray;
-  line-height: 1.9em;
+  line-height: 2.1em;
   margin-bottom: 0.5em;
   max-width: 75ch;
+  letter-spacing: 0.05em;
 }
 
 a {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   color: gray;
-  line-height: 1.9em;
+  line-height: 2.1em;
   margin-bottom: 0.5em;
   max-width: 75ch;
+  letter-spacing: 0.05em;
   text-decoration: none;
 }
 
 label {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   font-weight: 400;
   color: gray;
   line-height: 1.6em;
@@ -381,7 +388,7 @@ label {
 
 select {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   font-weight: 400;
   color: gray;
   line-height: 1.6em;
@@ -391,7 +398,7 @@ select {
 
 textarea {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   font-weight: 400;
   color: gray;
   line-height: 1.6em;
@@ -401,7 +408,7 @@ textarea {
 
 figcaption {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   font-weight: 400;
   color: gray;
   line-height: 1.6em;
@@ -409,9 +416,13 @@ figcaption {
   border: none;
 }
 
+ul {
+  padding: 0;
+}
+
 li {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   font-weight: 400;
   color: gray;
   line-height: 1.6em;
@@ -421,7 +432,7 @@ li {
 
 option {
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   font-weight: 400;
   color: gray;
   line-height: 1.6em;
@@ -443,6 +454,24 @@ code {
   /* 1 */
   font-size: 1em;
   /* 2 */
+}
+
+.code {
+  font-family: "Advent Pro", sans-serif;
+  font-size: clamp(1.8rem, 10px, 2.1rem);
+  color: gray;
+  line-height: 2.1em;
+  margin-bottom: 0.5em;
+  max-width: 75ch;
+  letter-spacing: 0.05em;
+  color: #b3e6e6;
+  font-family: monospace, monospace;
+  background-color: #506262;
+  padding: 0 1em;
+}
+.code::selection {
+  color: #53acac;
+  background-color: #c7d1d1;
 }
 
 kbd {
@@ -476,7 +505,33 @@ sup {
 }
 
 *::selection {
-  color: #bf4040;
+  color: #b3e6e6;
+}
+
+th {
+  font-family: "Advent Pro", sans-serif;
+  font-size: clamp(1.8rem, 10px, 2.1rem);
+  color: gray;
+  line-height: 2.1em;
+  margin-bottom: 0.5em;
+  max-width: 75ch;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  color: #2d8686;
+  text-align: left;
+  padding-bottom: 1.5em;
+  padding: 0 2em;
+}
+
+td {
+  font-family: "Advent Pro", sans-serif;
+  font-size: clamp(1.8rem, 10px, 2.1rem);
+  color: gray;
+  line-height: 2.1em;
+  margin-bottom: 0.5em;
+  max-width: 75ch;
+  letter-spacing: 0.05em;
+  padding: 1em 2em;
 }
 
 .hero__image {
@@ -741,16 +796,18 @@ sup {
   transition: 300ms;
   width: clamp(160px, 2vw, 200px);
   padding: 0.25em 0.5em;
+  background-color: #c7d1d1;
   /* margin: 1em 0; */
   /* width: $containerBig;
   aspect-ratio: $square; */
   border-radius: 5px;
   font-family: "Advent Pro", sans-serif;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   color: gray;
-  line-height: 1.9em;
+  line-height: 2.1em;
   margin-bottom: 0.5em;
   max-width: 75ch;
+  letter-spacing: 0.05em;
 }
 
 .card {
@@ -781,14 +838,14 @@ sup {
   padding: 1vh 1vw;
 }
 .card__title {
-  font-size: clamp(2.6rem, 0.5vw, 5rem);
+  font-size: clamp(2.2rem, 10px, 5rem);
   font-weight: 700;
   color: gray;
   margin: 0.5em auto;
   text-align: center;
 }
 .card__text {
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   color: gray;
   margin: 1em 0;
 }
@@ -826,13 +883,13 @@ sup {
   margin: 1em 0;
 }
 .employeecard__name {
-  font-size: clamp(2.6rem, 0.5vw, 5rem);
+  font-size: clamp(2.2rem, 10px, 5rem);
   font-weight: 700;
   color: gray;
   text-align: center;
 }
 .employeecard__position {
-  font-size: clamp(1.5rem, 0.5vw, 1.8rem);
+  font-size: clamp(1.5rem, 10px, 1.8rem);
   color: #b3e6e6;
   text-align: center;
   margin-bottom: 2em;
@@ -840,7 +897,7 @@ sup {
 .employeecard__phone {
   color: gray;
   margin: 0.5em 0;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   text-align: left;
 }
 .employeecard__phone:before {
@@ -851,7 +908,7 @@ sup {
 }
 .employeecard__mail {
   color: gray;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   text-align: center;
 }
 .employeecard__mail:before {
@@ -872,7 +929,7 @@ sup {
   padding: 1.5vh 0;
 }
 .productcard__name {
-  font-size: clamp(2.6rem, 0.5vw, 5rem);
+  font-size: clamp(2.2rem, 10px, 5rem);
   color: gray;
   font-weight: 700;
 }
@@ -896,12 +953,12 @@ sup {
   background-color: gray;
 }
 .productcard__title {
-  font-size: clamp(2.6rem, 0.5vw, 5rem);
+  font-size: clamp(2.2rem, 10px, 5rem);
   font-weight: 700;
   color: gray;
 }
 .productcard__price {
-  font-size: clamp(2.6rem, 0.5vw, 5rem);
+  font-size: clamp(2.2rem, 10px, 5rem);
   font-weight: 700;
   color: gray;
 }
@@ -917,7 +974,7 @@ sup {
   justify-content: space-around;
 }
 .productcard__size {
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   color: gray;
   padding: 1em;
   border-radius: 10px;
@@ -929,7 +986,7 @@ sup {
 }
 .productcard__order {
   color: gray;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   background-color: gray;
   border-radius: 20px;
   padding: 0.5em 1em;
@@ -1112,7 +1169,7 @@ label {
 .search__input {
   color: gray;
   padding: 0.5em 1em;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
 }
 .search__icon {
   height: 20px;
@@ -1122,7 +1179,7 @@ label {
 .search__btn {
   color: gray;
   background-color: gray;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   width: 5em;
   height: 4em;
 }
@@ -1571,13 +1628,13 @@ label {
 }
 .modal__title {
   color: gray;
-  font-size: clamp(2.6rem, 0.5vw, 5rem);
+  font-size: clamp(2.2rem, 10px, 5rem);
   margin: 1em 0;
   font-weight: 700;
 }
 .modal__text {
   color: gray;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   margin: 1em 0;
   text-align: center;
 }
@@ -1592,7 +1649,7 @@ label {
   border-radius: 5px;
   transition: 300ms;
   color: gray;
-  font-size: clamp(1.8rem, 0.5vw, 2.1rem);
+  font-size: clamp(1.8rem, 10px, 2.1rem);
   margin: 0.5em 1em 1.5em;
   display: block;
 }
@@ -1838,36 +1895,52 @@ input[type=date]::-webkit-calendar-picker-indicator {
   inset: 0 0 auto 0; */
   padding: 2.5vh 5vw;
   background-color: #53acac;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* &__navbar--horizontal{
+    display: flex;
+    justify-content: space-between;
+  } */
 }
 .header__up {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 80%;
+}
+.header__navbar--hidden {
+  display: none;
+}
+.header__navbar--show {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  inset: 5vh 3vw auto auto;
+  background-color: #2d8686;
 }
 
 .main {
-  margin: 0 0 40vh 0;
+  margin: 5vh 0 15vh 0;
   padding: 0 5vw;
-  width: 100vw;
+  max-width: 100vw;
 }
 
-/* 
-h4{
-    font-size: 60px;
-    color: magenta;
-  } */
 .footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2.5vh 5vw;
   background-color: #53acac;
+  /*   position: fixed;
+    inset: auto 0 0 0; */
+  /* max-width: 100vw; */
 }
 .footer__navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
+  width: 80%;
   padding: 0 10vw;
 }
 
@@ -1888,6 +1961,26 @@ section {
   flex-direction: column;
 }
 
+/* body{
+    background-color:aquamarine;
+    max-width: 100vw;
+} */
+/* :root{
+    background-color: goldenrod;
+    max-width: 100vw;
+    height: 100vh;
+}
+ */
+/* .App{
+    background-color: rgb(233, 200, 206);
+    max-width: 100vw;
+    height: 100vh;
+} */
+/* html{
+    background-color:darkslategrey;
+    max-width: 100vw;
+    height: 100vh;
+} */
 .test {
   background-color: red;
   width: 300px;
@@ -1904,13 +1997,23 @@ section {
 .components__sidebar {
   width: 15%;
   min-width: fit-content;
-  padding: 3em 0 0 1.5em;
   border: 0.5px solid #506262;
   border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1vh 2vw;
+  margin-bottom: 5vh;
+}
+.components__sidebar-title {
+  margin-top: 0;
 }
 .components__sidebar-list {
   overflow: scroll;
   height: 20vh;
+}
+.components__sidebar-singleComponent:hover {
+  color: #2dd2d2;
 }
 .components__main-display {
   width: 60vw;
@@ -1918,6 +2021,11 @@ section {
   flex-direction: column;
   align-items: center;
   padding-left: 5em;
+  padding: 1em 0;
+  overflow: hidden;
+}
+.components__main-displayTitle {
+  font-size: clamp(2.7rem, 10px, 5.6rem);
 }
 .components__dropdown {
   margin-top: 5vh;
@@ -1940,38 +2048,127 @@ section {
 
 .about-me__img {
   display: block;
-  margin: 5vh auto;
+  margin: 2.5vh auto;
+}
+.about-me__body {
+  margin: 3vh 0;
+  padding-bottom: 1.5em;
+  border-bottom: 3px solid #b3e6e6;
+  margin: 1.5em 0;
+}
+.about-me__last-paragraph {
+  margin-bottom: 3em;
+  text-align: center;
+  font-weight: 700;
 }
 
 .subsection {
   margin: 1.5vh 0;
+  padding: 0 15vw 2vh;
   padding-bottom: 2vh;
-  border: 0px solid #53acac;
-  border-bottom-width: 5px;
+  border-bottom: 3px solid #b3e6e6;
+}
+.subsection__last {
+  margin: 1.5vh 0;
+  padding: 0 15vw 2vh;
+  padding-bottom: 2vh;
 }
 
-.btn :hover {
+.landing-page__paragraph {
+  padding-bottom: 1.5em;
+  border-bottom: 3px solid #b3e6e6;
+  margin: 1.5em 0;
+}
+
+.ussage__section {
+  margin: 8vh 0;
+}
+.ussage__accent-element {
+  margin: 4vh 0;
+}
+.ussage__rule {
+  margin: 6vh 0;
+}
+.ussage__rule-title {
+  color: #2d8686;
+  font-weight: 700;
+}
+.ussage__example {
+  font-family: "Advent Pro", sans-serif;
+  font-size: clamp(1.8rem, 10px, 2.1rem);
+  color: gray;
+  line-height: 2.1em;
+  margin-bottom: 0.5em;
+  max-width: 75ch;
+  letter-spacing: 0.05em;
+  font-family: monospace, monospace;
+  color: #bf4040;
+}
+.ussage__table-lineTitle {
+  font-family: "Advent Pro", sans-serif;
+  font-size: clamp(1.8rem, 10px, 2.1rem);
+  color: gray;
+  line-height: 2.1em;
+  margin-bottom: 0.5em;
+  max-width: 75ch;
+  letter-spacing: 0.05em;
+  /* font-weight: 700; */
+  color: #53acac;
+}
+.ussage__headline {
+  font-family: "Advent Pro", sans-serif;
+  font-size: clamp(1.8rem, 10px, 2.1rem);
+  color: gray;
+  line-height: 2.1em;
+  margin-bottom: 0.5em;
+  max-width: 75ch;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+}
+
+.contact {
+  /* 
+  &__li{
+      background-color: red;
+  } */
+  /*   &__list{
+        padding: 0;
+    } */
+}
+.contact__ {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.btn {
+  transition: 300ms;
+}
+.btn:hover {
   color: white;
   background-color: gray;
 }
-.btn :active {
+.btn:active {
   color: white;
   background-color: #506262;
 }
-.btn :focus {
+.btn:focus {
   color: white;
   background-color: #171c1c;
 }
 
-a :hover {
-  color: white;
-  background-color: gray;
+a {
+  transition: 300ms;
 }
-a :active {
+a:hover {
+  color: white;
+  background-color: #53acac;
+}
+a:active {
   color: white;
   background-color: #506262;
 }
-a :focus {
+a:focus {
   color: white;
   background-color: #171c1c;
 }
@@ -2077,9 +2274,34 @@ a :focus {
   .components {
     display: flex;
     flex-direction: row;
+    align-items: initial;
+    /* 
+    &__sidebar{
+      position: fixed;
+      inset: 10vh 0 auto 3vw;
+    } */
   }
   .components__sidebar-list {
     height: 60vh;
+  }
+
+  .about-me {
+    display: block;
+    margin: 0 15vw 15vh;
+  }
+
+  .footer {
+    position: fixed;
+    inset: auto 0 0 0;
+  }
+
+  .contact__content {
+    display: block;
+    margin: 5vh 20vw 15vh;
+  }
+  .contact__content-p {
+    line-height: 2.5em;
+    letter-spacing: 0.075em;
   }
 }
 @media screen and (min-width: 834px) {
@@ -2098,6 +2320,16 @@ a :focus {
 @media screen and (min-width: 1024px) {
   .card {
     width: 15vw;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .header__navbar--hidden {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .neptune-shorthand {
+    display: none;
   }
 }
 

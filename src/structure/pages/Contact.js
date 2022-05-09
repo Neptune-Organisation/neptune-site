@@ -1,23 +1,45 @@
-import { PageTitle } from "neptunes-components"
+import { Body, PageTitle } from 'neptunes-components';
 export const Contact = () => {
-    return(
-        <>
-        <PageTitle pageTitle = "Contact" />
-        <form>
-            <label htmlFor="fName" required>First Name
-                <input type="text" />
-            </label>
-            <label htmlFor="fName" required>Last Name
-                <input type="text" />
-            </label>
-            <label htmlFor="email" required>E-Mail
-                <input type="email" />
-            </label>
-            <label htmlFor="message">Message
-                <input type="text" />
-            </label>
-            <button type="submit">Send</button>
-        </form>
-        </>
-    )
-}
+  return (
+    <div className="contact">
+      <PageTitle pageTitle="Contact" />
+      <div className="contact__content">
+        {/* <form>
+        <label htmlFor="fName" required>
+          First Name
+          <input type="text" />
+        </label>
+        <label htmlFor="fName" required>
+          Last Name
+          <input type="text" />
+        </label>
+        <label htmlFor="email" required>
+          E-Mail
+          <input type="email" />
+        </label>
+        <label htmlFor="message">
+          Message
+          <input type="text" />
+        </label>
+        <button type="submit">Send</button>
+      </form> */}
+        <p className="contact__content-p">Let's connect in</p>
+        <ul>
+          <li>
+            <a href="https://github.com/AlbertLeipzig" className='contact__link'>Github</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/albert-clemente/">Linkedin</a>
+          </li>
+          <li>
+            <a href="https://github.com/AlbertLeipzig">Twitter</a>
+          </li>
+          <p>
+            where I love to share about programing and programing related
+            content
+          </p>
+        </ul>
+      </div>
+    </div>
+  );
+};
