@@ -9,7 +9,7 @@ export const Footer = () => {
                 <a href="mailto:albertclem@protonmail.com" target="__blank">
                     <img src={EmailIcon} alt="" className="iconMed footer__icon"/>
                 </a>
-                <a href="https://github.com/AlbertLeipzig/scssvessel" target="__blank">
+                <a href="https://github.com/AlbertLeipzig" target="__blank">
                     <img src={GitIcon} alt="" className="iconMed footer__icon"/>
                 </a>
                 <a href="https://twitter.com/albert__loewe" target="__blank">

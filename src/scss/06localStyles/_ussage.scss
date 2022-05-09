@@ -2,6 +2,23 @@
 @use '../02atoms/atoms' as *;
 
 .ussage {
+
+  display: flex;
+  justify-content: space-between;
+
+
+  &__aside{
+    display: none;
+    position: sticky;
+    inset: 5vh 0 0 2vw;
+    min-width: fit-content;
+    height: fit-content;
+  }
+  &__content{
+    flex-grow: 4;
+    padding: 0 10vw;
+  }
+
   &__section {
     margin: 8vh 0;
   }
