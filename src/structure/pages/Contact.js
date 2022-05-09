@@ -4,7 +4,7 @@ export const Contact = () => {
     <div className="contact">
       <PageTitle pageTitle="Contact" />
       <div className="contact__content">
-      {/* <form>
+        {/* <form>
         <label htmlFor="fName" required>
           First Name
           <input type="text" />
@@ -23,13 +23,23 @@ export const Contact = () => {
         </label>
         <button type="submit">Send</button>
       </form> */}
-      <p className='contact__content-p'>
-        Find me in <a href="https://github.com/AlbertLeipzig">Github</a>,
-        <a href="https://www.linkedin.com/in/albert-clemente/">Linkedin</a> and
-        <a href="https://github.com/AlbertLeipzig">Twitter</a>, where I love to
-        share about programing and programing related content
-      </p>
+        <p className="contact__content-p">Let's connect in</p>
+        <ul>
+          <li>
+            <a href="https://github.com/AlbertLeipzig" className='contact__link'>Github</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/albert-clemente/">Linkedin</a>
+          </li>
+          <li>
+            <a href="https://github.com/AlbertLeipzig">Twitter</a>
+          </li>
+          <p>
+            where I love to share about programing and programing related
+            content
+          </p>
+        </ul>
       </div>
-      </div>
+    </div>
   );
 };

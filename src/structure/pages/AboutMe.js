@@ -28,7 +28,7 @@ export const AboutMe = () => {
         learning about <span className="bold">awesome technologies</span>{' '}
         and <span className="boldText">design.</span>
       </p>
-      <Body body="Let's get in touch!" bodyClass="about-me__last-paragraph" />
+      <a href="/contact" className='about-me__last-paragraph'>Let's get in touch!</a>
     </section>
   );
 };

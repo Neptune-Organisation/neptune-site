@@ -255,9 +255,6 @@ li {
   max-width: 75ch;
   letter-spacing: 0.05em;
 }
-li::before {
-  content: "* ";
-}
 
 .list-title {
   font-family: "Advent Pro", sans-serif;
@@ -419,6 +416,10 @@ figcaption {
   border: none;
 }
 
+ul {
+  padding: 0;
+}
+
 li {
   font-family: "Advent Pro", sans-serif;
   font-size: clamp(1.8rem, 10px, 2.1rem);
@@ -455,6 +456,24 @@ code {
   /* 2 */
 }
 
+.code {
+  font-family: "Advent Pro", sans-serif;
+  font-size: clamp(1.8rem, 10px, 2.1rem);
+  color: gray;
+  line-height: 2.1em;
+  margin-bottom: 0.5em;
+  max-width: 75ch;
+  letter-spacing: 0.05em;
+  color: #b3e6e6;
+  font-family: monospace, monospace;
+  background-color: #506262;
+  padding: 0 1em;
+}
+.code::selection {
+  color: #53acac;
+  background-color: #c7d1d1;
+}
+
 kbd {
   font-family: monospace, monospace;
   /* 1 */
@@ -486,7 +505,33 @@ sup {
 }
 
 *::selection {
-  color: #bf4040;
+  color: #b3e6e6;
+}
+
+th {
+  font-family: "Advent Pro", sans-serif;
+  font-size: clamp(1.8rem, 10px, 2.1rem);
+  color: gray;
+  line-height: 2.1em;
+  margin-bottom: 0.5em;
+  max-width: 75ch;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  color: #2d8686;
+  text-align: left;
+  padding-bottom: 1.5em;
+  padding: 0 2em;
+}
+
+td {
+  font-family: "Advent Pro", sans-serif;
+  font-size: clamp(1.8rem, 10px, 2.1rem);
+  color: gray;
+  line-height: 2.1em;
+  margin-bottom: 0.5em;
+  max-width: 75ch;
+  letter-spacing: 0.05em;
+  padding: 1em 2em;
 }
 
 .hero__image {
@@ -1876,7 +1921,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
 }
 
 .main {
-  margin: 5vh 0 10vh 0;
+  margin: 5vh 0 15vh 0;
   padding: 0 5vw;
   max-width: 100vw;
 }
@@ -2033,6 +2078,67 @@ section {
   padding-bottom: 1.5em;
   border-bottom: 3px solid #b3e6e6;
   margin: 1.5em 0;
+}
+
+.ussage__section {
+  margin: 8vh 0;
+}
+.ussage__accent-element {
+  margin: 4vh 0;
+}
+.ussage__rule {
+  margin: 6vh 0;
+}
+.ussage__rule-title {
+  color: #2d8686;
+  font-weight: 700;
+}
+.ussage__example {
+  font-family: "Advent Pro", sans-serif;
+  font-size: clamp(1.8rem, 10px, 2.1rem);
+  color: gray;
+  line-height: 2.1em;
+  margin-bottom: 0.5em;
+  max-width: 75ch;
+  letter-spacing: 0.05em;
+  font-family: monospace, monospace;
+  color: #bf4040;
+}
+.ussage__table-lineTitle {
+  font-family: "Advent Pro", sans-serif;
+  font-size: clamp(1.8rem, 10px, 2.1rem);
+  color: gray;
+  line-height: 2.1em;
+  margin-bottom: 0.5em;
+  max-width: 75ch;
+  letter-spacing: 0.05em;
+  /* font-weight: 700; */
+  color: #53acac;
+}
+.ussage__headline {
+  font-family: "Advent Pro", sans-serif;
+  font-size: clamp(1.8rem, 10px, 2.1rem);
+  color: gray;
+  line-height: 2.1em;
+  margin-bottom: 0.5em;
+  max-width: 75ch;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+}
+
+.contact {
+  /* 
+  &__li{
+      background-color: red;
+  } */
+  /*   &__list{
+        padding: 0;
+    } */
+}
+.contact__ {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .btn {

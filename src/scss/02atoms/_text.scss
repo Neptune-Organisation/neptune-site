@@ -79,13 +79,12 @@
   @include p;
 }
 
+
 li {
   padding: 0;
   margin: 0;
   text-align: left;
-  &::before {
-    content: "* ";
-  }
+
   @include p;
 }
 
@@ -159,6 +158,10 @@ figcaption {
   @include label-style;
 }
 
+ul{
+  padding: 0;
+}
+
 li {
   @include label-style;
 }
@@ -180,6 +183,18 @@ code {
   @include code-style;
 }
 
+.code{
+  @include p;
+  color: $primaryColLight;
+  font-family: monospace, monospace;
+  background-color: $grey1;
+  padding: 0 1em;
+  &::selection{
+    color: $primaryColMuted;
+    background-color: $grey3;
+  }
+}
+
 kbd {
   @include code-style;
 }
@@ -199,5 +214,20 @@ sup {
 }
 
 *::selection {
-  color: $compCol;
+  color: $primaryColLight;
+}
+
+
+th{
+  @include p;
+  font-weight: 700;
+  color: $primaryColDark;
+  text-align: left;
+  padding-bottom: 1.5em;
+  padding: 0 2em;
+}
+
+td{
+  @include p;
+  padding: 1em 2em;
 }

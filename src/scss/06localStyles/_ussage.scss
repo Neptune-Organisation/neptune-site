@@ -1,0 +1,37 @@
+@use '../01subAtoms/subAtoms' as *;
+@use '../02atoms/atoms' as *;
+
+.ussage {
+  &__section {
+    margin: 8vh 0;
+  }
+
+  &__accent-element {
+    margin: 4vh 0;
+  }
+  &__rule {
+    margin: 6vh 0;
+  }
+
+  &__rule-title {
+    color: $primaryColDark;
+    font-weight: 700;
+  }
+
+  &__example {
+    @include p;
+    font-family: monospace, monospace;
+    color: $compCol;
+  }
+
+  &__table-lineTitle {
+    @include p;
+    /* font-weight: 700; */
+    color: $primaryColMuted;
+  }
+
+  &__headline {
+    @include p;
+    font-weight: 700;
+  }
+}

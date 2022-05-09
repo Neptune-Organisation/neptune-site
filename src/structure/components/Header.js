@@ -18,6 +18,7 @@ export const Header = () => {
                 <nav className={`header__navbar${navState}`}>
                     <a href="/" className="header-link">Home</a>
                     <a href="/aboutneptune" className="header-link">About Neptune</a>
+                    <a href="/installation" className="header-link">Installation</a>
                     <a href="/components" className="header-link">Components</a>
                     <a href="/ussage" className="header-link">Ussage</a>
                     <a href="/aboutme" className="header-link">About me</a>

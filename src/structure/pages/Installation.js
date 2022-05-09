@@ -42,7 +42,7 @@ export const Installation = () => {
           />
           <p>
             In the near future will be a much better system. Read more about it{' '}
-            <a href="">here</a>.
+            <a href="/blog">here</a>.
           </p>
         </>
         <>

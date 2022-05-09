@@ -19,9 +19,9 @@ export const Main = () => {
         <Route exact path="/" element={<LandingPage />} />
         <Route path="/aboutneptune" element={<WhatsNeptune />} />
         <Route path="/installation" element={<Installation />} />
-        {/* <Route path="/ussage" element={<Ussage />} /> */}
+        <Route path="/ussage" element={<Ussage />} />
         <Route path="/components" element={<Components />} />
-        {/* <Route path="/blog" element={<Blog />} /> */}
+        <Route path="/blog" element={<Blog />} />
         {/* <Route path="/blog:id" element={<BlogEntry />} /> */}
         <Route path="/aboutme" element={<AboutMe />} />
         <Route path="/contact" element={<Contact />} />
