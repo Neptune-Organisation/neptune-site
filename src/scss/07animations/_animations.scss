@@ -22,7 +22,7 @@ a {
   transition: $transitionDuration;
   &:hover {
     color: $white;
-    background-color: $primaryColMuted;
+    background-color: $grey1;
   }
   &:active {
     color: $white;

@@ -19,6 +19,7 @@ export const AboutMe = () => {
           linkUrl="https://www.google.com/maps/search/Barcelona/@41.4003015,2.1482578,13z"
           link="Barcelona"
           target="_blank"
+          linkClass="contact__link"
         />
       </p>
       <p className="about-me__body">
@@ -28,7 +29,7 @@ export const AboutMe = () => {
         learning about <span className="bold">awesome technologies</span>{' '}
         and <span className="boldText">design.</span>
       </p>
-      <a href="/contact" className='about-me__last-paragraph'>Let's get in touch!</a>
+      <a href="/contact" className='about-me__last-paragraph contact__link'>Let's get in touch!</a>
     </section>
   );
 };

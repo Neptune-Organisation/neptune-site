@@ -4,7 +4,10 @@
 
         margin: 1.25em 0;
         width: fit-content;
-        color: $primaryColDark;
+        background-color: $primaryColMuted;
+        color: $white;
+        padding: 0 1em;
+
     }
     /* 
     &__li{

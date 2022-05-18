@@ -1,9 +1,12 @@
-import { PageTitle, SectionTitle, Headline } from "neptunes-components";
+import { PageTitle, SectionTitle, Headline } from 'neptunes-components';
 export const LandingPage = () => {
   return (
     <div className="landing-page">
-      <PageTitle pageTitle = "Neptune" />
-      <Headline headline = "Tools to develope your front-end application faster and easier" headlineClass= "landing-page__headline" />
+      <PageTitle pageTitle="Neptune" />
+      <Headline
+        headline="Tools to develope your front-end application faster and easier"
+        headlineClass="landing-page__headline"
+      />
       <section>
         <>
           <p className="landing-page__paragraph">
@@ -11,7 +14,9 @@ export const LandingPage = () => {
           </p>
         </>
         <>
-          <p className="landing-page__paragraph">Preserve function sepparation by avoiding in-line style.</p>
+          <p className="landing-page__paragraph">
+            Preserve function sepparation by avoiding in-line style.
+          </p>
         </>
         <>
           <p className="landing-page__paragraph">
@@ -26,7 +31,7 @@ export const LandingPage = () => {
           </p>
         </>
       </section>
-     {/*  <section>
+      <section>
         <h3>Acknowledgment</h3>
         <p>
           I'm a self-made developer, which means I'm plenty of failures. Lucky
@@ -37,23 +42,57 @@ export const LandingPage = () => {
             DCI for giving me the framework to develop this almost-a-framework
           </li>
           <li>
-            My teachers Patrick…, Bleda Stark, Fabian Darga, Maxim W, Tun Huan
-            and Giacomo.
+            My teachers Patrick Hamm,{' '}
+            <a href="https://www.linkedin.com/in/bleda-stark/" target="_blank"  className='link'>
+              Bleda Stark
+            </a>
+            ,{' '}
+            <a
+              href="https://www.linkedin.com/in/fabian-darga-554b2b124/"
+              target="_blank"  className='link'
+            >
+              Fabian Darga
+            </a>
+            ,{' '}
+            <a href="https://www.linkedin.com/in/maxim-werkhowski-b990611bb/" target="_blank"  className='link'>
+              Maxim Werkhowsky
+            </a>
+            ,{' '}
+            <a href="https://www.linkedin.com/in/tun-huang-877a071b2/" target="_blank" className='link'>
+              Anton Huan
+            </a>{' '}
+            and{' '}
+            <a
+              href="https://www.linkedin.com/in/giacomo-tolari/"
+              target="_blank" className='link'
+            >
+              Giacomo Tolari
+            </a>
+            .
           </li>
           <li>
-            Patricia … for the advice for the most common aspect-ratios for
-            images.
+            <a
+              href="https://www.linkedin.com/in/patricia-grammetbauer/"
+              target="_blank" className='link'
+            >
+              Patricia Grammetbauer
+            </a>{' '}
+            for the advice about the most common aspect-ratios for images.
           </li>
           <li>
-            Alejandro … for your moral support and all the shared knowledge.
+            <a
+              href="https://www.linkedin.com/in/jorge-alejandro-coronado-cuesta/"
+              target="_blank"  className='link'
+            >
+              Alejandro Coronado
+            </a>{' '}
+            or your moral support and all the shared knowledge.
           </li>
           <li>
-            And Carlos Perez Ortolá for his inconditional and more than generous
-            support along the years, besides a good inpiration and feedback in
-            UI / UX
+            Last but not least very specially thanks to <a href="https://www.linkedin.com/in/carlos-perez-ortola-19133341/" target="_blank" className='link'>Carlos Perez Ortolá</a> for their generous and unconditional support throughout the ages, as well as inspiration in terms of UI/UX. Nothing of that would have been possible without him.
           </li>
         </ul>
-      </section> */}
+      </section>
     </div>
   );
 };

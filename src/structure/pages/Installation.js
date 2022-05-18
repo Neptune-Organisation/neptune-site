@@ -11,9 +11,11 @@ export const Installation = () => {
     <section>
       <>
         <PageTitle pageTitle="Installation" />
-        <SubHeadline subHeadline="You can install modules separately" />
-        <>
-          <SectionTitle sectionTitle="I want the Components" />
+        <div className="installation__section">
+        <SubHeadline subHeadline="You can install modules separately" subHeadlineClass ="installation__subheadline" />
+        </div>
+        <SectionTitle sectionTitle="Get the Components" />
+        <div className="installation__section">
           <Body body="npm i neptunes-components" bodyClass="code" />
           <Link
             linkUrl="https://github.com/Neptune-Organisation/neptune-components"
@@ -25,45 +27,24 @@ export const Installation = () => {
             target="_blank"
             link="Npm"
           />
-        </>
-        <>
-          <SectionTitle sectionTitle="I want the Styles" />
-          <Body body="I'm working on it!!" />
-          <Body body="Right now the best you can do is go to this repository and copy the SCSS Folder tree." />
+        </div>
+        <div className="installation__section">
+          <SectionTitle sectionTitle="Get the Styles" />
+          <Body body="I'm working on it!! Right now the best you can do is clone the repository and copy the SCSS Folder manually into your src." />
           <Link
             link="Github"
             linkUrl="https://github.com/Neptune-Organisation/neptune-styles"
             target="_blank"
           />
-          <Link
-            link="Npm"
-            linkUrl="https://www.npmjs.com/package/neptune-styles"
-            target="_blank"
-          />
-          <p>
-            In the near future will be a much better system. Read more about it{' '}
-            <a href="/blog">here</a>.
-          </p>
-        </>
-        <>
+        </div>
+        <div className="installation__section">
           <SectionTitle sectionTitle="DB Assistant" />
-          <p>
-            Clone it{' '}
-            <a href="https://github.com/Neptune-Organisation/neptuneFakeDb">
-              here
-            </a>{' '}
-            or use this{' '}
-            <a href="https://www.npmjs.com/package/neptunefakedb">
-              npm-package
-            </a>
-          </p>
-        </>
-        <>
+          <p className='installation__WIP' > Work-In-Progress </p>
+        </div>
+        <div className="installation__section">
           <SectionTitle sectionTitle="GUI" />
-          <p>
-            Work In Progress. <a href="">Don't miss the launching!</a>
-          </p>
-        </>
+          <p className='installation__WIP'> Work-In-Progress </p>
+        </div>
       </>
     </section>
   );

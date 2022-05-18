@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { db } from './firebaseConfig';
-import { collection, getDocs } from 'firebase/firestore';
+import "./firebase"
 
 import { Routes, Route } from 'react-router-dom';
 import { Header } from '../src/structure/components/Header.js';
@@ -20,21 +19,8 @@ import { Image } from 'neptunes-components';
 
 /* import { FirebaseConnection } from './firebaseConnection'; */
 
+
 export function App() {
-  const [books, setBooks] = useState([]);
-  const booksColRef = collection(db, 'books');
-  useEffect(() => {
-    const getBooks = async () => {
-      const data = await getDocs(booksColRef);
-      setBooks(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
-    };
-
-    getBooks();
-  }, []);
-
- 
-  
-  
 
   return (
     <div className="App">

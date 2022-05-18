@@ -22,7 +22,7 @@ export const Ussage = () => {
             <p>Pass the required (and the wished) properties as props.</p>
             <p>
               As usual, after installed neptunes-components{' '}
-              <a href="" className="link">
+              <a href="" className="contact__link">
                 (read the installation guide)
               </a>{' '}
               import the wanted component/s at the document's begining{' '}

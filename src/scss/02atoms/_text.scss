@@ -100,8 +100,10 @@ li {
 .link {
   @include p;
   text-decoration: none;
-  background-color: transparent;
-  color: $primaryColMuted;
+  background-color: $primaryColMuted;
+  color: $white;
+  padding-left: 1em;
+  margin: .6em 0;
 }
 
 .header-link {
@@ -190,6 +192,8 @@ code {
   font-family: monospace, monospace;
   background-color: $grey1;
   padding: 0 1em;
+  display: block;
+  margin: .6em 0;
   &::selection{
     color: $primaryColMuted;
     background-color: $grey3;

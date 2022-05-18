@@ -285,8 +285,10 @@ li {
   max-width: 75ch;
   letter-spacing: 0.05em;
   text-decoration: none;
-  background-color: transparent;
-  color: #53acac;
+  background-color: #53acac;
+  color: white;
+  padding-left: 1em;
+  margin: 0.6em 0;
 }
 
 .header-link {
@@ -469,6 +471,8 @@ code {
   font-family: monospace, monospace;
   background-color: #506262;
   padding: 0 1em;
+  display: block;
+  margin: 0.6em 0;
 }
 .code::selection {
   color: #53acac;
@@ -2047,6 +2051,11 @@ section {
   margin: 1.5em 1.5em;
 }
 
+.components__title {
+  text-align: center;
+  display: block;
+}
+
 .about-me__img {
   display: block;
   margin: 2.5vh auto;
@@ -2165,7 +2174,26 @@ section {
 .contact__link {
   margin: 1.25em 0;
   width: fit-content;
-  color: #2d8686;
+  background-color: #53acac;
+  color: white;
+  padding: 0 1em;
+}
+
+.installation__section {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 50%;
+}
+.installation__subheadline {
+  text-align: center;
+}
+.installation__WIP {
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+  background-color: #738c8c;
+  color: #b3e6e6;
 }
 
 .btn {
@@ -2189,7 +2217,7 @@ a {
 }
 a:hover {
   color: white;
-  background-color: #53acac;
+  background-color: #506262;
 }
 a:active {
   color: white;

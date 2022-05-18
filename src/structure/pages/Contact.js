@@ -1,9 +1,13 @@
 import { Body, PageTitle } from 'neptunes-components';
+import "../../firebase"
+
 export const Contact = () => {
   return (
     <div className="contact">
       <PageTitle pageTitle="Contact" />
       <div className="contact__content">
+
+
         {/* <form>
         <label htmlFor="fName" required>
           First Name
@@ -23,7 +27,7 @@ export const Contact = () => {
         </label>
         <button type="submit">Send</button>
       </form> */}
-        <p className="contact__content-p">Let's connect in</p>
+        <p className="contact__content-p">Let's connect on</p>
         <ul>
           <li>
             <a
